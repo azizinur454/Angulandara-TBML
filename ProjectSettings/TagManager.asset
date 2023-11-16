@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Teleport
+  - Arrow
+  - Ground
+  - Gapura
+  - Checkpoint
+  - Enemy
+  - Boss
+  - Artifact
+  - SpiritOrb
+  - Objects
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - Enemy
+  - PlayerHitbox
+  - EnemyHitbox
+  - GroundDetection
+  - HealZone
+  - Checkpoint
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1554986617
+    locked: 0
+  - name: Background 2
+    uniqueID: 3840443685
+    locked: 0
+  - name: Underground
+    uniqueID: 1292544015
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

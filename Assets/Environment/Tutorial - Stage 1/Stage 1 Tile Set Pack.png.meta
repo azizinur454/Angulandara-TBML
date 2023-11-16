@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: a44ddcce2d576474f8dfbca2a6201d18
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 485
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_0
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1943
+        width: 505
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47492f9f60c134749869ed7210661a2f
+      internalID: -2141998634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_1
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1943
+        width: 505
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8035ee48bb1cfa148a933356b9dc9f5f
+      internalID: 1961009928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_2
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1946
+        width: 507
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5942006734e408e45a668aef64367d5f
+      internalID: 96049285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_3
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1946
+        width: 505
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab8080fb64f4984cb0edaedba4513af
+      internalID: 444325824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_4
+      rect:
+        serializedVersion: 2
+        x: 2604
+        y: 1946
+        width: 506
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2cbfc21a2edab4694bc7e7e7b09edd
+      internalID: 1197862289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_5
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 1946
+        width: 506
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3463cfa9fbf05f54a9bf337aa11fa6a0
+      internalID: 1564543584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_6
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 1946
+        width: 503
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71daede651543254c916e7080247d352
+      internalID: 130293714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1420
+        width: 506
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026d6a3878d21f94a9b32e03601ec792
+      internalID: -2100255509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_8
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1420
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00593242d28e16e458c1c0e7384b2f61
+      internalID: -1554069665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_9
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1420
+        width: 507
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed075f2d0a1954b8b8738267698dcf
+      internalID: 1444851965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_10
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1420
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc238eebba916045a4dea16721afaaf
+      internalID: -1333124391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_11
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1420
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a208e3889fc3484cbb322b17f303435
+      internalID: -2101953964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_12
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 1420
+        width: 507
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d1447fb06ce694ea681de37bd83edd
+      internalID: 1062819805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_13
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 1420
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bce2845a1c42fa41b57e6479fad541a
+      internalID: -398593448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_14
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 895
+        width: 506
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d07e7b0c8e5b46418eb963f2c33bfbc
+      internalID: 1612491118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_15
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 895
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f645b0e9fedd479947f2a50c3d1d7
+      internalID: 736058258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_16
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 895
+        width: 507
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea53ce3ab7ca05f43af73c3bd95cc2e0
+      internalID: 1634507391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_17
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 895
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f3b885deb8de146b8b023983cf253c
+      internalID: -339927603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_18
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 845
+        width: 508
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de73d6f281d2624bbf041046e85ff73
+      internalID: -359231994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_19
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 845
+        width: 507
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8c9e352a0385140aadde1856a67835
+      internalID: 804099946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_20
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 298
+        width: 504
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec94aa6c7a8b234cbc324e2de927bc8
+      internalID: 613606020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_21
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 295
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e5a1f08b37d114c84c3d9959ab1884
+      internalID: 1610842612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_22
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 298
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1687de868d358448b53b0820f1ee84
+      internalID: 1288378963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_23
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 295
+        width: 505
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1489809959eda544e93d983eca1a3d95
+      internalID: 1235632130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 1 Tile Set Pack_24
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 298
+        width: 508
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf09e31a6d1aa044abe9569f5cb156c
+      internalID: 1975489144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stage 1 Tile Set Pack_0: -2141998634
+      Stage 1 Tile Set Pack_1: 1961009928
+      Stage 1 Tile Set Pack_10: -1333124391
+      Stage 1 Tile Set Pack_11: -2101953964
+      Stage 1 Tile Set Pack_12: 1062819805
+      Stage 1 Tile Set Pack_13: -398593448
+      Stage 1 Tile Set Pack_14: 1612491118
+      Stage 1 Tile Set Pack_15: 736058258
+      Stage 1 Tile Set Pack_16: 1634507391
+      Stage 1 Tile Set Pack_17: -339927603
+      Stage 1 Tile Set Pack_18: -359231994
+      Stage 1 Tile Set Pack_19: 804099946
+      Stage 1 Tile Set Pack_2: 96049285
+      Stage 1 Tile Set Pack_20: 613606020
+      Stage 1 Tile Set Pack_21: 1610842612
+      Stage 1 Tile Set Pack_22: 1288378963
+      Stage 1 Tile Set Pack_23: 1235632130
+      Stage 1 Tile Set Pack_24: 1975489144
+      Stage 1 Tile Set Pack_3: 444325824
+      Stage 1 Tile Set Pack_4: 1197862289
+      Stage 1 Tile Set Pack_5: 1564543584
+      Stage 1 Tile Set Pack_6: 130293714
+      Stage 1 Tile Set Pack_7: -2100255509
+      Stage 1 Tile Set Pack_8: -1554069665
+      Stage 1 Tile Set Pack_9: 1444851965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

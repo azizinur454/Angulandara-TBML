@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8637770319362927651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 562857933416317166}
+  - component: {fileID: 422310562091938917}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562857933416317166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637770319362927651}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -54.909042, y: 1.2220347, z: -0.110628694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &422310562091938917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637770319362927651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c9b55f3e2745d42b3d234e6d082c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - audioType: 1
+    source: {fileID: 0}
+    clipName: Stage1
+    audioClip: {fileID: 8300000, guid: c90b27bf943c6cb49b5920bd1e203613, type: 3}
+    isLoop: 1
+    playOnAwake: 1
+    volume: 0.4
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: BowAttack
+    audioClip: {fileID: 8300000, guid: 274ae4f12450f934b9a31733eb1c107d, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: Walk
+    audioClip: {fileID: 8300000, guid: ef40ceb4e42d0b54daf85f3160d02e33, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: Run
+    audioClip: {fileID: 8300000, guid: db360be7b9659e846b3909a513e41f6e, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: EnemyHit
+    audioClip: {fileID: 8300000, guid: ba96be843f4c3cf43abe8336f7a61971, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: Slash
+    audioClip: {fileID: 8300000, guid: 7ef4f241d87ac0f4e914e0f6f0db8310, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.4
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: Jump
+    audioClip: {fileID: 8300000, guid: 508084d319e6f334aaeecc8c64c3c8d9, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
+  - audioType: 0
+    source: {fileID: 0}
+    clipName: Button
+    audioClip: {fileID: 8300000, guid: 755a616f8010e5b4bb52d010abf9a567, type: 3}
+    isLoop: 0
+    playOnAwake: 0
+    volume: 0.5
