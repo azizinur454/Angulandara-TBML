@@ -7,15 +7,12 @@ public class StageClear : MonoBehaviour
 {
     public bool isFinish = false;
 
-    private void Awake()
-    {
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
             Finish();
+            SoundManager.Instance.Play("Complete");
         }
     }
 

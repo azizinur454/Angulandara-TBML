@@ -188,6 +188,9 @@ public class UIManager : MonoBehaviour
     {
         isLose = true;
         loseMenu.SetActive(true);
+        SoundManager.Instance.Play("Lose");
+        SoundManager.Instance.Stop("Stage1");
+        SoundManager.Instance.Stop("BossBGM");
     }
 
     public void LoseGameWithCheckpoint()

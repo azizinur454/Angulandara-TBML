@@ -67,4 +67,22 @@ public class SoundManager : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            Instance.Stop("Stage1");
+            Instance.Play("BossBGM");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Instance.Stop("BossBGM");
+            Instance.Play("Stage1");
+        }
+    }
 }
