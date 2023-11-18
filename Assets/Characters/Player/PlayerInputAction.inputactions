@@ -228,6 +228,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e7a1fdb2-4724-43f5-9cbc-2a6e897a56d4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "0e1c7ab6-7a26-4a1b-87a8-bb2f3e437416",
                     "path": "<Keyboard>/s",
                     "interactions": "",
