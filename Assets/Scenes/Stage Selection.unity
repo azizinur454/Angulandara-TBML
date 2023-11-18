@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -664.95, y: -345.2298}
+  m_AnchoredPosition: {x: -680.95, y: -307.2298}
   m_SizeDelta: {x: 340, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120525199
@@ -320,8 +320,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -269}
-  m_SizeDelta: {x: 1184.5049, y: 427.1859}
+  m_AnchoredPosition: {x: 791.94116, y: -269}
+  m_SizeDelta: {x: 1052.5637, y: 427.1859}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &131699397
 MonoBehaviour:
@@ -551,8 +551,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -122}
-  m_SizeDelta: {x: 397.13477, y: 73.1922}
+  m_AnchoredPosition: {x: 660, y: -122}
+  m_SizeDelta: {x: 1184.5, y: 62}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &143415677
 MonoBehaviour:
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: Nenek Pakande
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -787,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -184}
+  m_AnchoredPosition: {x: 67, y: -184}
   m_SizeDelta: {x: 397.13477, y: 73.1922}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &285330506
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: Jawa Tengah
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -921,8 +921,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -184}
-  m_SizeDelta: {x: 397.13477, y: 73.1922}
+  m_AnchoredPosition: {x: 67, y: -195.19}
+  m_SizeDelta: {x: 1184.5, y: 62}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &336871601
 MonoBehaviour:
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: Pantai Selatan Jawa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -1055,8 +1055,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -718}
-  m_SizeDelta: {x: 580.1213, y: 106.9167}
+  m_AnchoredPosition: {x: 67, y: -680}
+  m_SizeDelta: {x: 1184.5, y: 106.9167}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &367325211
 MonoBehaviour:
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet
+  m_text: Stage 3 - Queen Of The Soutch Coast
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -1189,8 +1189,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -718}
-  m_SizeDelta: {x: 580.1213, y: 106.9167}
+  m_AnchoredPosition: {x: 67, y: -680}
+  m_SizeDelta: {x: 1184.5, y: 106.9167}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &380697634
 MonoBehaviour:
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet
+  m_text: Stage 1 - Savageful Giant
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -1786,8 +1786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -122}
-  m_SizeDelta: {x: 397.13477, y: 73.1922}
+  m_AnchoredPosition: {x: 67, y: -122}
+  m_SizeDelta: {x: 1184.5, y: 73.1922}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1093737156
 MonoBehaviour:
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: Nyi Roro Kidul
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -1922,7 +1922,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -664.95, y: -345.2298}
+  m_AnchoredPosition: {x: -719.95, y: -345.2298}
   m_SizeDelta: {x: 340, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098027081
@@ -2342,15 +2342,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.56568164, b: 0.83137256, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d2a372519b7300149b0d047881425473, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2424,7 +2424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '>>'
+  m_text: '>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -2535,8 +2535,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -718}
-  m_SizeDelta: {x: 580.1213, y: 106.9167}
+  m_AnchoredPosition: {x: 660, y: -680}
+  m_SizeDelta: {x: 1184.5, y: 106.9167}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1317137570
 MonoBehaviour:
@@ -2558,7 +2558,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet
+  m_text: Stage 2 - The Wicked Witch
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -2592,7 +2592,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2672,7 +2672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -664.95, y: -345.2298}
+  m_AnchoredPosition: {x: -719.95, y: -307.2298}
   m_SizeDelta: {x: 340, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323376825
@@ -2832,8 +2832,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -269}
-  m_SizeDelta: {x: 1184.5049, y: 427.1859}
+  m_AnchoredPosition: {x: 67, y: -269}
+  m_SizeDelta: {x: 986.0215, y: 402.3755}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1417664153
 MonoBehaviour:
@@ -2969,8 +2969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -122}
-  m_SizeDelta: {x: 397.13477, y: 73.1922}
+  m_AnchoredPosition: {x: 67, y: -122}
+  m_SizeDelta: {x: 1184.5, y: 73.1922}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1445114441
 MonoBehaviour:
@@ -2992,7 +2992,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: Prabu Dewata Cengkar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -3393,8 +3393,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -269}
-  m_SizeDelta: {x: 1184.5049, y: 427.1859}
+  m_AnchoredPosition: {x: 67, y: -269}
+  m_SizeDelta: {x: 1008.583, y: 427.1859}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1551092691
 MonoBehaviour:
@@ -3533,7 +3533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1195.9998, y: 457.65533}
+  m_AnchoredPosition: {x: -1143, y: 457.65533}
   m_SizeDelta: {x: 277.567, y: 98.9854}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647419261
@@ -3714,15 +3714,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8301887, g: 0.34184244, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 13fd590175025084f8f8749899dbecdf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3796,7 +3796,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <<
+  m_text: <
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -3929,15 +3929,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.14528298, g: 0.31949955, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 9e45e9113af610240a99869e086f64bc, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4017,7 +4017,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122, y: -184}
+  m_AnchoredPosition: {x: 1447.4, y: -184}
   m_SizeDelta: {x: 397.13477, y: 73.1922}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2010160503
@@ -4040,7 +4040,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum
+  m_text: Sulawesi Selatan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
   m_sharedMaterial: {fileID: -3965892331106044947, guid: 214761ec7a41dfd4a8dac6a4d6521379, type: 2}
@@ -4074,7 +4074,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

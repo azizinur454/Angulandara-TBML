@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelSelect : MonoBehaviour
 {
-    Animator animator;
 
     [SerializeField] private int maxPage;
     private int currentPage;
+
     Vector3 targetPos;
     [SerializeField] Vector3 pageStep;
     [SerializeField] RectTransform levelPagesRect;
@@ -17,11 +18,6 @@ public class LevelSelect : MonoBehaviour
 
     public float tweenTime;
     public LeanTweenType tweenType;
-
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
 
     private void Start()
     {
@@ -81,8 +77,6 @@ public class LevelSelect : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
-
-
     }
 
     public void ClickButtonSound()
@@ -98,6 +92,5 @@ public class LevelSelect : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene(0);
-
     }
 }

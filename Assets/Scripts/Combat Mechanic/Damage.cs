@@ -68,7 +68,7 @@ public class Damage : MonoBehaviour
                     stageClear.isFinish = true;
                     SoundManager.Instance.Stop("BossBGM");
                     SoundManager.Instance.Play("Complete");
-                }    
+                }   
 
                 if(CompareTag("Objects"))
                 {

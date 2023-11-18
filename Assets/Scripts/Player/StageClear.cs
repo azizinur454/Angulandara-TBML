@@ -12,6 +12,7 @@ public class StageClear : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             Finish();
+            SoundManager.Instance.Stop("Stage1");
             SoundManager.Instance.Play("Complete");
         }
     }

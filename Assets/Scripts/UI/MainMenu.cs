@@ -7,7 +7,8 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SoundManager.Instance.Play("Button");
+        Invoke("PlayNextScene", 0.3f);
     }
 
     public void ClickButtonSound()
@@ -19,5 +20,10 @@ public class MainMenu : MonoBehaviour
     {
         Debug.Log("This game on exit state");
         Application.Quit();
+    }
+
+    public void PlayNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
