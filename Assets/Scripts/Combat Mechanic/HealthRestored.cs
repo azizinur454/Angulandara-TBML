@@ -13,6 +13,7 @@ public class HealthRestored : MonoBehaviour
         if(damage)
         {
             damage.Heal(healthRestored);
+            SoundManager.Instance.Play("Checkpoint");
             Destroy(gameObject);
         }
     }

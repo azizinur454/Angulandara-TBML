@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8470889883204913189}
   - component: {fileID: 8631803566020594167}
   - component: {fileID: 984691988589973450}
+  - component: {fileID: 3802721983957461967}
   m_Layer: 8
   m_Name: Prabu
   m_TagString: Untagged
@@ -39,6 +40,7 @@ Transform:
   - {fileID: 7594966541617939734}
   - {fileID: 3050940988481655753}
   - {fileID: 5616239711568086129}
+  - {fileID: 1343855298593694073}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3829697049045371973
@@ -189,8 +191,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 3
+  rangeDistance: 5
   attackZone: {fileID: 8089468009125708162}
   holeDetectionZone: {fileID: 7989450089766845245}
+  player: {fileID: 0}
+  isMove: 1
+  IsChase: 0
   _hasTarget: 0
 --- !u!114 &8631803566020594167
 MonoBehaviour:
@@ -242,11 +248,57 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
+  enemyScore: 500
   _maxHealth: 100
   _health: 100
   _isAlive: 1
   isInvincible: 0
   invicibilityTime: 0.25
+--- !u!114 &3802721983957461967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2149527734867722611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8c3d93cc120a04086ccb5eaf919dad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoke: {fileID: 0}
+  smokePrefab: {fileID: 0}
+--- !u!1 &5733476713958931474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343855298593694073}
+  m_Layer: 8
+  m_Name: SmokeSpawnLoc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343855298593694073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5733476713958931474}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.94, y: -5.73, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1036772209859549446}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6579678810766645755
 GameObject:
   m_ObjectHideFlags: 0
