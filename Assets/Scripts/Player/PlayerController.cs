@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,7 +13,8 @@ public class PlayerController : MonoBehaviour
     Damage damage;
     UIManager uiManager;
     PlayerInput input;
-
+    TutorialScreen tutorialScreen;
+    ArtifactCount artifactCount;
 
     [Header("Player Settings")]
     public float walkSpeed = 5f;
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    [Header("Condition Settings")]
     [SerializeField] private bool _isMoving = false;
     public bool IsMoving 
     { 
@@ -150,6 +153,13 @@ public class PlayerController : MonoBehaviour
         damage = GetComponent<Damage>();
         uiManager = FindObjectOfType<UIManager>();
         input = GetComponent<PlayerInput>();
+        tutorialScreen = FindObjectOfType<TutorialScreen>();
+        artifactCount = FindObjectOfType<ArtifactCount>();
+    }
+
+    private void Start()
+    {
+        tutorialScreen.isTutorial = true;
     }
 
     private void FixedUpdate()
@@ -163,11 +173,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (uiManager.isPaused)
+        if (uiManager.isPaused || tutorialScreen.isTutorial)
         {
             input.DeactivateInput();
         }
-        else if (!uiManager.isPaused)
+        else if (!uiManager.isPaused || !tutorialScreen.isTutorial)
         {
             input.ActivateInput();
         }
@@ -300,6 +310,7 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Artifact"))
         {
             prabuArtifactAmount++;
+            artifactCount.ShowAmountArtifact();
             if (prabuArtifactAmount >= 3)
             {
                 prabuArtifact = true;
