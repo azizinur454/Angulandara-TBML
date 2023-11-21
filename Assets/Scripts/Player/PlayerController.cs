@@ -145,6 +145,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public bool isDialogue = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -173,11 +175,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (uiManager.isPaused || tutorialScreen.isTutorial)
+        if (uiManager.isPaused || tutorialScreen.isTutorial || isDialogue)
         {
             input.DeactivateInput();
         }
-        else if (!uiManager.isPaused || !tutorialScreen.isTutorial)
+        else if (!uiManager.isPaused || !tutorialScreen.isTutorial || !isDialogue)
         {
             input.ActivateInput();
         }
@@ -279,7 +281,6 @@ public class PlayerController : MonoBehaviour
         runSpeed = runSpeed * 2;
         onAirSpeed = onAirSpeed * 2;
     }
-
 
     public void WalkSound()
     {
