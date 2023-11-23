@@ -100,13 +100,26 @@ public class SoundManager : MonoBehaviour
     public void TurnOn()
     {
         isMuted = false;
+
         AudioListener.volume = isMuted ? 0 : 1;
+
+        bgmSlider.interactable = true;
+        sfxSlider.interactable = true;
+
+        bgmSlider.value = 100;
+        sfxSlider.value = 100;
     }
 
     public void TurnOff()
     {
         isMuted = true;
         AudioListener.volume = isMuted ? 0 : 1;
+
+        bgmSlider.interactable = false;
+        sfxSlider.interactable = false;
+
+        bgmSlider.value = 0;
+        sfxSlider.value = 0;
     }
 
     public void UpdateMixerVolume()
