@@ -2,13 +2,31 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
 {
+    [Header("Volume Slider")]
+    [SerializeField] private Slider bgmSlider;
+    [SerializeField] private Slider sfxSlider;
+
+    public static float bgmVolume;
+    public static float sfxVolume;
+
+    private const string bgmVolumeKey = "BGMVolume";
+    private const string sfxVolumeKey = "SFXVolume";
+
+    [Header("Category")]
+    [SerializeField] private AudioMixerGroup bgmMixerGroup;
+    [SerializeField] private AudioMixerGroup sfxMixerGroup;
+
+    [Header("Sound List")]
     [SerializeField] private Sound[] sounds;
 
     public static SoundManager Instance;
+    public bool isMuted = false;
+
     private void Awake()
     {
         Instance = this;
@@ -19,6 +37,17 @@ public class SoundManager : MonoBehaviour
             s.source.clip = s.audioClip;
             s.source.loop = s.isLoop;
             s.source.volume = s.volume;
+
+            switch (s.audioType)
+            {
+                case Sound.AudioTypes.SFX:
+                    s.source.outputAudioMixerGroup = sfxMixerGroup;
+                    break;
+
+                case Sound.AudioTypes.BGM:
+                    s.source.outputAudioMixerGroup = bgmMixerGroup;
+                    break;
+            }
 
             if (s.playOnAwake)
                 s.source.Play();
@@ -66,6 +95,38 @@ public class SoundManager : MonoBehaviour
                 s.source.UnPause();
             }
         }
+    }
+
+    public void TurnOn()
+    {
+        isMuted = false;
+        AudioListener.volume = isMuted ? 0 : 1;
+    }
+
+    public void TurnOff()
+    {
+        isMuted = true;
+        AudioListener.volume = isMuted ? 0 : 1;
+    }
+
+    public void UpdateMixerVolume()
+    {
+        bgmMixerGroup.audioMixer.SetFloat("BGM", Mathf.Log10(bgmVolume) * 20);
+        sfxMixerGroup.audioMixer.SetFloat("SFX", Mathf.Log10(sfxVolume) * 20);
+    }
+
+    public void BgmSliderValueChange(float value)
+    {
+        bgmVolume = value;
+        Mathf.RoundToInt(value * 100);
+        UpdateMixerVolume();
+    }
+
+    public void SfxSliderValueChange(float value)
+    {
+        sfxVolume = value;
+        Mathf.RoundToInt(value * 100);
+        UpdateMixerVolume();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

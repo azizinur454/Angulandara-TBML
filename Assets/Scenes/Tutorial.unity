@@ -22814,6 +22814,18 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1273308061}
+    - target: {fileID: 6136230134035420957, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136230134035420957, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136230134035420957, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14901961
+      objectReference: {fileID: 0}
     - target: {fileID: 6194684461932021020, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -23370,10 +23382,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 568655729464566908, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 843138164394478565, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.9
       objectReference: {fileID: 0}
+    - target: {fileID: 1126917298429295850, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 991155056aa1cc0499abe7b90c50726e, type: 3}
     - target: {fileID: 1828536733286087761, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.5
@@ -23391,16 +23411,36 @@ PrefabInstance:
       value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 4198204768776885658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4198204768776885658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5476967286422769460, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.81
       objectReference: {fileID: 0}
     - target: {fileID: 5476967286422769460, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 6520064737296852551, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3047075f587daa41ade1c11c68c4949, type: 3}
+    - target: {fileID: 6540390334831669658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b2be4f3133e4b34683fc1a5e19d8685, type: 3}
     - target: {fileID: 6540390334831669658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701007537604056252, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195183728030646961, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23608,6 +23648,10 @@ PrefabInstance:
     - target: {fileID: 1401950489009749549, guid: bd273edaf8da1e748b79b520d91d45a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8198299618595180469, guid: bd273edaf8da1e748b79b520d91d45a1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

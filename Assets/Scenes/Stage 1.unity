@@ -1188,6 +1188,18 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ClickButtonSound
       objectReference: {fileID: 0}
+    - target: {fileID: 6136230134035420957, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136230134035420957, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136230134035420957, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_Color.r
+      value: 0.14901961
+      objectReference: {fileID: 0}
     - target: {fileID: 6194684461932021020, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6114,7 +6126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57.8
+      value: -56.29
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6839,7 +6851,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.8, y: 13.9, z: -10}
+  m_LocalPosition: {x: -56.29, y: 13.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8576,6 +8588,10 @@ PrefabInstance:
       value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1126917298429295850, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 991155056aa1cc0499abe7b90c50726e, type: 3}
+    - target: {fileID: 1126917298429295850, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingLayer
       value: -2
       objectReference: {fileID: 0}
@@ -8720,6 +8736,10 @@ PrefabInstance:
       value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6520064737296852551, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3047075f587daa41ade1c11c68c4949, type: 3}
+    - target: {fileID: 6520064737296852551, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingLayer
       value: -2
       objectReference: {fileID: 0}
@@ -8731,6 +8751,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 6540390334831669658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b2be4f3133e4b34683fc1a5e19d8685, type: 3}
     - target: {fileID: 6540390334831669658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingLayer
       value: -2
@@ -9711,7 +9735,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.023711324, y: 0.020781994, z: 0}
   m_MaxChunkCount: 16
@@ -12794,7 +12818,7 @@ Transform:
   m_GameObject: {fileID: 1236765712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.8, y: 13.9, z: -10}
+  m_LocalPosition: {x: -56.29, y: 13.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15603,7 +15627,7 @@ MonoBehaviour:
   dialogue: {fileID: 1210929345}
   messages:
   - actorId: 0
-    message: test1
+    message: Kirana, kakek, aku kembali
   - actorId: 1
     message: test2
   - actorId: 2
@@ -15614,11 +15638,11 @@ MonoBehaviour:
     message: test5
   actors:
   - name: Pandu
-    sprite: {fileID: 21300000, guid: 4d1891692f9c41943b53ad875f35586c, type: 3}
+    sprite: {fileID: 21300000, guid: 098f5f23c003d58478c9371619513a56, type: 3}
   - name: Kirana
-    sprite: {fileID: 21300000, guid: f0af1d1939efe46429b3ccb34ad21dd6, type: 3}
+    sprite: {fileID: 21300000, guid: 6383765fda6c0eb48b3ee37039e153f9, type: 3}
   - name: Kakek
-    sprite: {fileID: 21300000, guid: 60a75389f3bac484eb364a799c049ff4, type: 3}
+    sprite: {fileID: 21300000, guid: 6096f51d14f0b214790a000c4ae60b6e, type: 3}
 --- !u!61 &1791356324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36037,6 +36061,10 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1126917298429295850, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 991155056aa1cc0499abe7b90c50726e, type: 3}
+    - target: {fileID: 1126917298429295850, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingLayer
       value: -3
       objectReference: {fileID: 0}
@@ -36181,6 +36209,10 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6520064737296852551, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3047075f587daa41ade1c11c68c4949, type: 3}
+    - target: {fileID: 6520064737296852551, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingLayer
       value: -3
       objectReference: {fileID: 0}
@@ -36192,6 +36224,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 6540390334831669658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b2be4f3133e4b34683fc1a5e19d8685, type: 3}
     - target: {fileID: 6540390334831669658, guid: 7df62ae124246b64b91fa9493495ee8d, type: 3}
       propertyPath: m_SortingLayer
       value: -3
