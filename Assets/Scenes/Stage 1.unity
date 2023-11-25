@@ -6177,11 +6177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.29
+      value: 90.7
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.9
+      value: 14.2
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6521,7 +6521,7 @@ GameObject:
   - component: {fileID: 496658465}
   - component: {fileID: 496658464}
   m_Layer: 5
-  m_Name: DialogueSytem
+  m_Name: DialogueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6902,7 +6902,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.29, y: 13.9, z: -10}
+  m_LocalPosition: {x: 90.7, y: 14.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8225,6 +8225,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: onMute
+      value: 
+      objectReference: {fileID: 885314349}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: onPlay
+      value: 
+      objectReference: {fileID: 885314347}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: offMute
+      value: 
+      objectReference: {fileID: 885314348}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: offPlay
+      value: 
+      objectReference: {fileID: 885314346}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: bgmSlider
       value: 
@@ -9796,6 +9812,26 @@ MonoBehaviour:
 --- !u!1 &885314345 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4044561606117938248, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 885314341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &885314346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1776675470454506814, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 885314341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &885314347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5570029763554944808, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 885314341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &885314348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4332253252331838196, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 885314341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &885314349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8775209361165870260, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
   m_PrefabInstance: {fileID: 885314341}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &901424105
@@ -12957,6 +12993,7 @@ MonoBehaviour:
   messageText: {fileID: 1077367874}
   backgroundBox: {fileID: 1210929346}
   Dialogue: {fileID: 1210929345}
+  dialogueSpeed: 3
 --- !u!1 &1213542574
 GameObject:
   m_ObjectHideFlags: 0
@@ -13117,7 +13154,7 @@ Transform:
   m_GameObject: {fileID: 1236765712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.29, y: 13.9, z: -10}
+  m_LocalPosition: {x: 90.7, y: 14.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15926,15 +15963,52 @@ MonoBehaviour:
   dialogue: {fileID: 1210929345}
   messages:
   - actorId: 0
-    message: Kirana, kakek, aku kembali
+    message: Kirana, kakek, aku kembali.
   - actorId: 1
-    message: test2
-  - actorId: 2
-    message: test3
-  - actorId: 1
-    message: test4
+    message: Pandu! Kami khawatir denganmu. Bagaimana perjalananmu?
   - actorId: 0
-    message: test5
+    message: Tidak mudah kirana. Aku melihat beberapa makhluk-makhluk yang belum
+      pernah aku bayangkan sebelumnya.
+  - actorId: 2
+    message: Pandu, perjalanan ini belum selesai. Sekarang kita memiliki tugas yang
+      lebih berat di hadapan kita.
+  - actorId: 1
+    message: Apa yang harus kita hadapi selanjutnya, kakek?
+  - actorId: 2
+    message: "Kalian berdua akan menghadapi \u2018Prabu Dewata Cengkar\u2019. Dia
+      adalah makhluk legenda yang berasal dari Jawa Tengah. "
+  - actorId: 2
+    message: Dalam legenda Aji Saka, beliau adalah raja dari Medang Kamulan. Konon,
+      Prabu Dewata Cengkar juga merupakan makhluk denawa yang sangat berbahaya.
+  - actorId: 0
+    message: ...
+  - actorId: 2
+    message: 'Prabu Dewata Cengkar dikenal dengan sifatnya yang biadab, penindas
+      dan gemar memangsa manusia. Dia adalah raja raksasa yang lalim dengan kebiasaannya
+      memakan manusia dan membuat rakyatnya sangat ketakutan. '
+  - actorId: 2
+    message: Selain itu, beliau juga sering menggunakan kejahatan dan kecerdikannya
+      untuk mencapai tujuannya.
+  - actorId: 1
+    message: Ini akan menjadi pertarungan yang sulit.
+  - actorId: 2
+    message: Tepat. Namun, kakek memiliki tips untuk mengalahkan Prabu Dewata Cengkar.
+      Pertama, kamu perlu menggunakan pusaka dan artefak yang saya berikan. Mereka
+      memiliki kekuatan khusus yang dapat membantu melawan kekuatan gelapnya.
+  - actorId: 2
+    message: Apakah kamu berhasil mengumpulkan semua artefaknya Pandu?
+  - actorId: 0
+    message: Iya kakek, aku berhasil menemukan semua pecahan artefak itu.
+  - actorId: 2
+    message: Bagus pandu, mahkota ini akan menambah kekuatan panah dan kerismu.
+  - actorId: 2
+    message: Tapi kamu harus tetap waspada. Prabu Dewata Cengkar sangat kuat, tetapi
+      dia tetap memiliki kelemahan.
+  - actorId: 0
+    message: baik kakek. Pandu akan mengalahkan Prabu Dewata Cengkar demi menyelamatkan
+      tanah ini.
+  - actorId: 2
+    message: Bagus. Selamat berjuang pandu.
   actors:
   - name: Pandu
     sprite: {fileID: 21300000, guid: 098f5f23c003d58478c9371619513a56, type: 3}

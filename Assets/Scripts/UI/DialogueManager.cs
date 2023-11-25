@@ -9,11 +9,14 @@ public class DialogueManager : MonoBehaviour
 {
     PlayerController player;
 
+    private Coroutine typewriter;
+
     public Image actorImage;
     public TMP_Text actorName;
     public TMP_Text messageText;
     public RectTransform backgroundBox;
     public GameObject Dialogue;
+    public float dialogueSpeed = 0f;
 
     Message[] currentMessages;
     Actor[] currentActors;
@@ -37,26 +40,32 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayMessage()
     {
+        if (typewriter != null)
+        {
+            StopCoroutine(typewriter);
+        }
+
         Message messageToDisplay = currentMessages[activeMessage];
         string messageTextContent = messageToDisplay.message;
 
-        messageText.text = messageToDisplay.message;
+        messageText.text = "";
+        typewriter = StartCoroutine(ShowTextWithTypewriter(messageTextContent));
 
         Actor actorToDisplay = currentActors[messageToDisplay.actorId];
         actorName.text = actorToDisplay.name;
         actorImage.sprite = actorToDisplay.sprite;
+    }
 
-        messageText.text = "";
-
-        for (int i = 0; i < messageTextContent.Length; i++)
+    IEnumerator ShowTextWithTypewriter(string text)
+    {
+        int index = 0;
+        while (index < text.Length)
         {
-            char currentChar = messageTextContent[i];
-
-            LeanTween.delayedCall(i * 0.1f, () =>
-            {
-                messageText.text += currentChar.ToString();
-            });
+            messageText.text += text[index++];
+            yield return new WaitForSeconds(dialogueSpeed / 100);
         }
+
+        typewriter = null;
     }
 
     public void NextMessage()

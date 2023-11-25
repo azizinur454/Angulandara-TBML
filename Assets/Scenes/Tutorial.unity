@@ -1855,6 +1855,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1006793395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1776675470454506814, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1006793391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1006793396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5570029763554944808, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1006793391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1006793397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4332253252331838196, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1006793391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1006793398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8775209361165870260, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1006793391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1033044072
 GameObject:
   m_ObjectHideFlags: 0
@@ -24499,6 +24519,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: onMute
+      value: 
+      objectReference: {fileID: 1006793398}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: onPlay
+      value: 
+      objectReference: {fileID: 1006793396}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: offMute
+      value: 
+      objectReference: {fileID: 1006793397}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: offPlay
+      value: 
+      objectReference: {fileID: 1006793395}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: bgmSlider
       value: 

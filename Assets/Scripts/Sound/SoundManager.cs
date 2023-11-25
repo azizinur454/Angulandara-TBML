@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using System.Threading;
 
 public class SoundManager : MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class SoundManager : MonoBehaviour
 
     public static float bgmVolume;
     public static float sfxVolume;
+
+    [Header("Load Status Mute")]
+    public GameObject onMute;
+    public GameObject offMute;
+    public GameObject onPlay, offPlay;
 
     private const string bgmVolumeKey = "BGMVolume";
     private const string sfxVolumeKey = "SFXVolume";
@@ -51,6 +57,22 @@ public class SoundManager : MonoBehaviour
 
             if (s.playOnAwake)
                 s.source.Play();
+        }
+    }
+
+    private void Start()
+    {
+        LoadSoundSettings();
+
+        if (isMuted == true)
+        {
+            onMute.SetActive(true);
+            offMute.SetActive(true);
+            onPlay.SetActive(false); 
+            offPlay.SetActive(false);
+
+            bgmSlider.interactable = false;
+            sfxSlider.interactable = false;
         }
     }
 
@@ -108,11 +130,13 @@ public class SoundManager : MonoBehaviour
 
         bgmSlider.value = 100;
         sfxSlider.value = 100;
+        SaveSoundSettings();
     }
 
     public void TurnOff()
     {
         isMuted = true;
+
         AudioListener.volume = isMuted ? 0 : 1;
 
         bgmSlider.interactable = false;
@@ -120,12 +144,14 @@ public class SoundManager : MonoBehaviour
 
         bgmSlider.value = 0;
         sfxSlider.value = 0;
+        SaveSoundSettings();
     }
 
     public void UpdateMixerVolume()
     {
         bgmMixerGroup.audioMixer.SetFloat("BGM", Mathf.Log10(bgmVolume) * 20);
         sfxMixerGroup.audioMixer.SetFloat("SFX", Mathf.Log10(sfxVolume) * 20);
+        SaveSoundSettings();
     }
 
     public void BgmSliderValueChange(float value)
@@ -140,6 +166,41 @@ public class SoundManager : MonoBehaviour
         sfxVolume = value;
         Mathf.RoundToInt(value * 100);
         UpdateMixerVolume();
+    }
+
+    public void LoadSoundSettings()
+    {
+        isMuted = PlayerPrefs.GetInt("isMuted") == 1;
+
+        if (PlayerPrefs.HasKey(bgmVolumeKey))
+        {
+            bgmVolume = PlayerPrefs.GetFloat(bgmVolumeKey);
+            bgmSlider.value = bgmVolume;
+        }
+        else
+        {
+            bgmVolume = 1f;
+            bgmSlider.value = bgmVolume;
+        }
+
+        if (PlayerPrefs.HasKey(sfxVolumeKey))
+        {
+            sfxVolume = PlayerPrefs.GetFloat(sfxVolumeKey);
+            sfxSlider.value = sfxVolume;
+        }
+        else
+        {
+            sfxVolume = 1f;
+            sfxSlider.value = sfxVolume;
+        }
+    }
+    public void SaveSoundSettings()
+    {
+        PlayerPrefs.SetInt("isMuted", isMuted ? 1 : 0);
+
+        PlayerPrefs.SetFloat(bgmVolumeKey, bgmVolume);
+        PlayerPrefs.SetFloat(sfxVolumeKey, sfxVolume);
+        PlayerPrefs.Save();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
