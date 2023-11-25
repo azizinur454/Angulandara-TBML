@@ -10,6 +10,7 @@ public class Collectibles : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            SoundManager.Instance.Play("CollectSpirit");
             Score.instance.AddCoinScore(collectibleScores);
             CharacterEvent.scores(gameObject, collectibleScores);
             Destroy(gameObject);

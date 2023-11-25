@@ -25,7 +25,7 @@ public class PlayerAttack : MonoBehaviour
         {
             Vector2 KnockbackDirection = transform.parent.localScale.x > 0 ? knockback : new Vector2(-knockback.x, knockback.y);
 
-            if(player.prabuArtifact == true)
+            if(player.isArtifactComplete == true)
             {
                 // objek terkena hit atau damage
                 bool gotHit = damage.Hit(boostAttack, KnockbackDirection);

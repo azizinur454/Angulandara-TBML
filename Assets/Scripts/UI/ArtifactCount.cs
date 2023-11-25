@@ -24,7 +24,7 @@ public class ArtifactCount : MonoBehaviour
     public void ShowAmountArtifact()
     {
         canvasGroup.alpha = 1f;
-        amountText.text = "Artifact " + player.prabuArtifactAmount + "/3 Acquired" ;
+        amountText.text = "Artifact " + player.artifactAmount + "/3 Acquired" ;
 
         StartCoroutine(HideAmountArtifactAfterDelay(3f));
     }

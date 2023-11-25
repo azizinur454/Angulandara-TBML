@@ -44,7 +44,7 @@ public class Arrow : MonoBehaviour
         {
             Vector2 KnockbackDirection = transform.localScale.x > 0 ? knockback : new Vector2(-knockback.x, knockback.y);
 
-            if (player.prabuArtifact == true)
+            if (player.isArtifactComplete == true)
             {
                 rangeDamage = rangeDamage * 2;
             }

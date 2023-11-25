@@ -9,6 +9,8 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject dialogue;
 
     public Message[] messages;
+    public Message[] alternativeMessage;
+
     public Actor[] actors;
 
     private void Awake()
@@ -25,6 +27,12 @@ public class DialogueTrigger : MonoBehaviour
     {
         dialogue.SetActive(true);
         dialogueManager.OpenDialogue(messages, actors);
+    }
+
+    public void StartAlternativeDialogue()
+    {
+        dialogue.SetActive(true);
+        dialogueManager.OpenAlternativeDialogue(alternativeMessage, actors);
     }
 }
 

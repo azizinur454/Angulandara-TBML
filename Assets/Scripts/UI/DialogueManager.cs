@@ -38,7 +38,36 @@ public class DialogueManager : MonoBehaviour
         DisplayMessage();
     }
 
+    public void OpenAlternativeDialogue(Message[] messages, Actor[] actors)
+    {
+        currentMessages = messages;
+        currentActors = actors;
+        activeMessage = 0;
+        player.isDialogue = true;
+
+        Debug.Log("Loaded Messages: " + messages.Length);
+        DisplayAlternativeMessage();
+    }
+
     public void DisplayMessage()
+    {
+        if (typewriter != null)
+        {
+            StopCoroutine(typewriter);
+        }
+
+        Message messageToDisplay = currentMessages[activeMessage];
+        string messageTextContent = messageToDisplay.message;
+
+        messageText.text = "";
+        typewriter = StartCoroutine(ShowTextWithTypewriter(messageTextContent));
+
+        Actor actorToDisplay = currentActors[messageToDisplay.actorId];
+        actorName.text = actorToDisplay.name;
+        actorImage.sprite = actorToDisplay.sprite;
+    }
+
+    public void DisplayAlternativeMessage()
     {
         if (typewriter != null)
         {
@@ -88,6 +117,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonUp(0) && player.isDialogue == true)
         {
+            SoundManager.Instance.Play("Button");
             NextMessage();
         }
     }

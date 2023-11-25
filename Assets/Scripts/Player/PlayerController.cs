@@ -23,8 +23,8 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 8f;
 
     [Header("Artifact Settings")]
-    public int prabuArtifactAmount = 0;
-    public bool prabuArtifact = false;
+    public int artifactAmount = 0;
+    public bool isArtifactComplete = false;
 
     Vector2 moveInput;
 
@@ -310,11 +310,12 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.CompareTag("Artifact"))
         {
-            prabuArtifactAmount++;
+            SoundManager.Instance.Play("CollectArtifact");
+            artifactAmount++;
             artifactCount.ShowAmountArtifact();
-            if (prabuArtifactAmount >= 3)
+            if (artifactAmount >= 3)
             {
-                prabuArtifact = true;
+                isArtifactComplete = true;
             }
         }
     }
