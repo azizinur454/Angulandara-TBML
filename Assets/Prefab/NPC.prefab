@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &346600934691157990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4609433222758959775}
+  - component: {fileID: 3635821019868636140}
+  - component: {fileID: 5443333672007664666}
+  - component: {fileID: 2021006818282710656}
+  m_Layer: 0
+  m_Name: NPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4609433222758959775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346600934691157990}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.51073, y: 12.78972, z: 0.18508251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5670807498129125158}
+  - {fileID: 5543102105412650847}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3635821019868636140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346600934691157990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648e445da9cfb454a845b7aaec4381d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 0}
+  messages:
+  - actorId: 0
+    message: Kirana, kakek, aku kembali.
+  - actorId: 1
+    message: Kakak, kami khawatir denganmu. Bagaimana perjalananmu?
+  - actorId: 0
+    message: Tidak mudah kirana. Aku melihat beberapa makhluk-makhluk yang belum
+      pernah aku bayangkan sebelumnya.
+  - actorId: 2
+    message: Pandu, perjalanan ini belum selesai. Sekarang kita memiliki tugas yang
+      lebih berat di hadapan kita.
+  - actorId: 1
+    message: Apa yang harus kita hadapi selanjutnya, kakek?
+  - actorId: 2
+    message: "Kalian berdua akan menghadapi \u2018Prabu Dewata Cengkar\u2019. Dia
+      adalah makhluk legenda yang berasal dari Jawa Tengah. "
+  - actorId: 2
+    message: Dalam legenda Aji Saka, beliau adalah raja dari Medang Kamulan. Konon,
+      Prabu Dewata Cengkar juga merupakan makhluk denawa yang sangat berbahaya.
+  - actorId: 0
+    message: ...
+  - actorId: 2
+    message: 'Prabu Dewata Cengkar dikenal dengan sifatnya yang biadab, penindas
+      dan gemar memangsa manusia. Dia adalah raja raksasa yang lalim dengan kebiasaannya
+      memakan manusia dan membuat rakyatnya sangat ketakutan. '
+  - actorId: 2
+    message: Selain itu, beliau juga sering menggunakan kejahatan dan kecerdikannya
+      untuk mencapai tujuannya.
+  - actorId: 1
+    message: Ini akan menjadi pertarungan yang sulit.
+  - actorId: 2
+    message: Tepat. Namun, kakek memiliki tips untuk mengalahkan Prabu Dewata Cengkar.
+      Pertama, kamu perlu menggunakan pusaka dan artefak yang saya berikan. Mereka
+      memiliki kekuatan khusus yang dapat membantu melawan kekuatan gelapnya.
+  - actorId: 2
+    message: Apakah kamu berhasil mengumpulkan semua artefaknya Pandu?
+  - actorId: 0
+    message: Iya kakek, aku berhasil menemukan semua pecahan artefak itu.
+  - actorId: 2
+    message: Bagus pandu, mahkota ini akan menambah kekuatan panah dan kerismu.
+  - actorId: 2
+    message: Tapi kamu harus tetap waspada. Prabu Dewata Cengkar sangat kuat, tetapi
+      dia tetap memiliki kelemahan.
+  - actorId: 0
+    message: Baik kakek. Pandu akan mengalahkan Prabu Dewata Cengkar demi menyelamatkan
+      tanah ini.
+  - actorId: 2
+    message: Bagus. Selamat berjuang pandu.
+  alternativeMessage:
+  - actorId: 0
+    message: Kirana, kakek, aku kembali.
+  - actorId: 1
+    message: Pandu! Kami khawatir denganmu. Bagaimana perjalananmu?
+  - actorId: 0
+    message: Tidak mudah kirana. Aku melihat beberapa makhluk-makhluk yang belum
+      pernah aku bayangkan sebelumnya.
+  - actorId: 2
+    message: Pandu, perjalanan ini belum selesai. Sekarang kita memiliki tugas yang
+      lebih berat di hadapan kita.
+  - actorId: 1
+    message: Apa yang harus kita hadapi selanjutnya, kakek?
+  - actorId: 2
+    message: "Kalian berdua akan menghadapi \u2018Prabu Dewata Cengkar\u2019. Dia
+      adalah makhluk legenda yang berasal dari Jawa Tengah. "
+  - actorId: 2
+    message: Dalam legenda Aji Saka, beliau adalah raja dari Medang Kamulan. Konon,
+      Prabu Dewata Cengkar juga merupakan makhluk denawa yang sangat berbahaya.
+  - actorId: 0
+    message: ...
+  - actorId: 2
+    message: 'Prabu Dewata Cengkar dikenal dengan sifatnya yang biadab, penindas
+      dan gemar memangsa manusia. Dia adalah raja raksasa yang lalim dengan kebiasaannya
+      memakan manusia dan membuat rakyatnya sangat ketakutan. '
+  - actorId: 2
+    message: Selain itu, beliau juga sering menggunakan kejahatan dan kecerdikannya
+      untuk mencapai tujuannya.
+  - actorId: 1
+    message: Ini akan menjadi pertarungan yang sulit.
+  - actorId: 2
+    message: Tepat. Namun, kakek memiliki tips untuk mengalahkan Prabu Dewata Cengkar.
+      Pertama, kamu perlu menggunakan pusaka dan artefak yang saya berikan. Mereka
+      memiliki kekuatan khusus yang dapat membantu melawan kekuatan gelapnya.
+  - actorId: 2
+    message: Apakah kamu berhasil mengumpulkan semua artefaknya Pandu?
+  - actorId: 0
+    message: Maaf kakek, aku tidak berhasil menemukan semua pecahan artefak yang
+      hilang. Beberapa dari mereka tampaknya sulit dijangkau atau tidak dapat terlihat.
+  - actorId: 1
+    message: Tidak apa kakak. Yang penting kakak selamat.
+  - actorId: 2
+    message: Kegagalan adalah bagian dari awal perjuangan. Yang terpenting sekarang
+      adalah bagaimana kita melangkah ke depan dari sini.
+  - actorId: 0
+    message: Baik kakek, tetapi aku merasa seperti kehilangan kesempatan untuk lebih
+      mempersiapkan diri untuk pertarungan selanjutnya.
+  - actorId: 2
+    message: Pecahan artefak itu memang memberikan kekuatan tambahan, tetapi keberanian
+      dan tekad sejatimu lah yang merupakan kunci untuk menghadapi tantangan ini.
+  - actorId: 0
+    message: Baik, terima kasih kakek. Aku akan mengalahkan Prabu Dewata Cengkar
+      demi menyelamatkan tanah ini.
+  - actorId: 2
+    message: Bagus. Selamat berjuang pandu.
+  actors:
+  - name: Pandu
+    sprite: {fileID: 21300000, guid: 098f5f23c003d58478c9371619513a56, type: 3}
+  - name: Kirana
+    sprite: {fileID: 21300000, guid: 6383765fda6c0eb48b3ee37039e153f9, type: 3}
+  - name: Kakek
+    sprite: {fileID: 21300000, guid: 6096f51d14f0b214790a000c4ae60b6e, type: 3}
+--- !u!61 &5443333672007664666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346600934691157990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.527565, y: -0.73859024}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7122345, y: 2.2469692}
+  m_EdgeRadius: 0
+--- !u!114 &2021006818282710656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346600934691157990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc3b90702331be46aecd3096895566e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 3635821019868636140}
+--- !u!1 &3670373460397503187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5543102105412650847}
+  - component: {fileID: 8238125638375198465}
+  - component: {fileID: 5778971546471609641}
+  - component: {fileID: 3354763957620059683}
+  m_Layer: 0
+  m_Name: Kakek
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5543102105412650847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670373460397503187}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.22927094, y: -0.7497196, z: -0.18508251}
+  m_LocalScale: {x: 0.22, y: 0.22, z: 0.22}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 4609433222758959775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8238125638375198465
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670373460397503187}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -151055167, guid: 59e1d8362e04aee418457444e3172f6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.6699998, y: 10.332626}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &5778971546471609641
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670373460397503187}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!95 &3354763957620059683
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3670373460397503187}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb62efabb32379543b42ac450dd83449, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &7844296281796099121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5670807498129125158}
+  - component: {fileID: 1814024528003318642}
+  - component: {fileID: 3394641362540250384}
+  - component: {fileID: 1054418540654889839}
+  m_Layer: 0
+  m_Name: Kirana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5670807498129125158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844296281796099121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.3207245, y: -0.8957195, z: -0.18508251}
+  m_LocalScale: {x: 0.22000001, y: 0.22000001, z: 0.22000001}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 4609433222758959775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1814024528003318642
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844296281796099121}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 1139195127, guid: 556b721b9d852284798369a618b24e6e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.7700002, y: 8.902207}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!50 &3394641362540250384
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844296281796099121}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!95 &1054418540654889839
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844296281796099121}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ef17f03256e7d69489a9f1f788947fa0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
