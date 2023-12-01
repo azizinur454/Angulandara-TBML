@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -680.95, y: -307.2298}
-  m_SizeDelta: {x: 340, y: 93}
+  m_AnchoredPosition: {x: 758.74, y: -321}
+  m_SizeDelta: {x: 251.53, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &120525199
 MonoBehaviour:
@@ -321,7 +321,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 791.94116, y: -269}
-  m_SizeDelta: {x: 1052.5637, y: 427.1859}
+  m_SizeDelta: {x: 1052.5637, y: 352.4561}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &131699397
 MonoBehaviour:
@@ -343,13 +343,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at porttitor
-    magna. Nulla semper pretium diam, sed porta eros sollicitudin in. Proin venenatis
-    dui quis odio semper, non luctus lorem egestas. Phasellus in pellentesque lacus,
-    a gravida diam. In hac habitasse platea dictumst. '
+  m_text: 'Nenek Pakande adalah sosok nenek tua yang digambarkan sebagai sosok yang
+    suka memangsa atau memakan anak-anak. Dia sering muncul sebagai sosok yang bertutur
+    lembut, Ia dianggap sebagai sosok yang dapat memberikan bantuan atau memberikan
+    kutukan, tergantung pada bagaimana ia diperlakukan.
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f393865465a73e7469ef37c0ea51d573, type: 2}
+  m_sharedMaterial: {fileID: 1055326175214622238, guid: f393865465a73e7469ef37c0ea51d573, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -373,8 +375,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1056,7 +1058,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 67, y: -680}
+  m_AnchoredPosition: {x: 67, y: -616}
   m_SizeDelta: {x: 1184.5, y: 106.9167}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &367325211
@@ -1106,8 +1108,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1190,7 +1192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 67, y: -680}
+  m_AnchoredPosition: {x: 67, y: -616}
   m_SizeDelta: {x: 1184.5, y: 106.9167}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &380697634
@@ -1240,8 +1242,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1967,7 +1969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -719.95, y: -345.2298}
+  m_AnchoredPosition: {x: -719.95, y: -321}
   m_SizeDelta: {x: 340, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098027081
@@ -2702,7 +2704,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 660, y: -680}
+  m_AnchoredPosition: {x: 660, y: -616}
   m_SizeDelta: {x: 1184.5, y: 106.9167}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1317137570
@@ -2752,8 +2754,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2839,7 +2841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -719.95, y: -307.2298}
+  m_AnchoredPosition: {x: -719.95, y: -283}
   m_SizeDelta: {x: 340, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323376825
@@ -3000,7 +3002,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 67, y: -269}
-  m_SizeDelta: {x: 986.0215, y: 402.3755}
+  m_SizeDelta: {x: 986.0215, y: 331.9858}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1417664153
 MonoBehaviour:
@@ -3022,13 +3024,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at porttitor
-    magna. Nulla semper pretium diam, sed porta eros sollicitudin in. Proin venenatis
-    dui quis odio semper, non luctus lorem egestas. Phasellus in pellentesque lacus,
-    a gravida diam. In hac habitasse platea dictumst. '
+  m_text: Prabu Dewata Cengkar adalah seorang raja dari Medang Kamulan dalam legenda
+    Aji Saka. Dewata Cengkar kono adalah makhluk dari bangsa denawa yang biadab,
+    penindas, dan gemar memangsa manusia. Ia raja raksasa yang lalim yang punya kebiasaan
+    memakan manusia dan rakyatnya. Ia juga dikenal dengan sifatnya yang seringkali
+    jahat dan licik.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f393865465a73e7469ef37c0ea51d573, type: 2}
+  m_sharedMaterial: {fileID: 1055326175214622238, guid: f393865465a73e7469ef37c0ea51d573, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3037,7 +3040,7 @@ MonoBehaviour:
     rgba: 4278199859
   m_fontColor: {r: 0.1981132, g: 0.1471698, b: 0, a: 1}
   m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_colorMode: 1
   m_fontColorGradient:
     topLeft: {r: 1, g: 1, b: 1, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
@@ -3052,8 +3055,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3561,7 +3564,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 67, y: -269}
-  m_SizeDelta: {x: 1008.583, y: 427.1859}
+  m_SizeDelta: {x: 1008.583, y: 352.4561}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1551092691
 MonoBehaviour:
@@ -3583,13 +3586,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at porttitor
-    magna. Nulla semper pretium diam, sed porta eros sollicitudin in. Proin venenatis
-    dui quis odio semper, non luctus lorem egestas. Phasellus in pellentesque lacus,
-    a gravida diam. In hac habitasse platea dictumst. '
+  m_text: Nyi Roro Kidul adalah ratu laut legendaris yang dikenal dengan pakaian
+    hijau lautnya. Dia memiliki kekuatan untuk mengendalikan gelombang laut, ombak
+    besar, dan makhluk laut. Nyi Roro Kidul juga dianggap sebagai penjaga keindahan
+    alam laut. Beberapa orang juga percaya bahwa ia memiliki daya tarik mistis yang
+    kuat dan bahwa siapa pun yang mengenakan warna hijau terlalu mencolok di pantai
+    dapat terbawa ombak dan hilang.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f393865465a73e7469ef37c0ea51d573, type: 2}
+  m_sharedMaterial: {fileID: 1055326175214622238, guid: f393865465a73e7469ef37c0ea51d573, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3613,8 +3618,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
