@@ -8,11 +8,19 @@ public class Pakande : MonoBehaviour
     Animator animator;
     Rigidbody2D rb;
     SpriteRenderer spriteRenderer;
+    Damage damage;
 
+    [Header("Target Location")]
     public Transform player;
     public Transform attackLoc;
+
+    [Header("Enemy Settings")]
+    public Transform[] enemyPos;
     public DetectionZone attackZone;
     public GameObject attackPrefab;
+    [SerializeField] private int amountOfAttack = 3;
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float timeAttackInterval = 1f;
 
     public bool CanMove
     {
@@ -36,6 +44,21 @@ public class Pakande : MonoBehaviour
         }
     }
 
+    public bool _isEnraged = false;
+
+    public bool IsEnraged
+    {
+        get 
+        { 
+            return _isEnraged; 
+        }
+        set
+        {
+            _isEnraged = value;
+            animator.SetBool("isEnraged", value);
+        }
+    }
+
     public float AttackCooldown
     {
         get
@@ -52,6 +75,7 @@ public class Pakande : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        damage = GetComponent<Damage>();
     }
 
     private void Update()
@@ -79,6 +103,8 @@ public class Pakande : MonoBehaviour
         {
             AttackCooldown -= Time.deltaTime;
         }
+
+        OnHealthConditionChanged();
     }
 
     public void OnHit(int damage, Vector2 knockback)
@@ -86,8 +112,55 @@ public class Pakande : MonoBehaviour
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
-    public void spawnPakandeAttack()
+    public void SpawnPakandeAttack()
     {
         GameObject magicAttack = Instantiate(attackPrefab, attackLoc.transform.position, Quaternion.identity);
+    }
+
+    public void SpawnPakandeEnragedAttack()
+    {
+        StartCoroutine(SpawnEnragedAttack());
+    }
+
+    public void OnHealthConditionChanged()
+    {
+        if (damage.Health >= 50 && damage.Health <= 75)
+        {
+            MoveToPosition(enemyPos[0]);
+        }
+
+        else if(damage.Health >= 25 && damage.Health <= 50 )
+        {
+            IsEnraged = true;
+            MoveToPosition(enemyPos[1]);
+        }
+
+        else if (damage.Health >= 0 && damage.Health <= 25 )
+        {
+            MoveToPosition(enemyPos[2]);
+        }
+    }
+
+    public void MoveToPosition(Transform targetPosition)
+    {
+        if (targetPosition != null)
+        {
+            Vector2 targetPositionVector = targetPosition.position;
+            transform.position = Vector2.MoveTowards(transform.position, targetPositionVector, moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+            Debug.LogError("Target position is not decided");
+        }
+    }
+
+    IEnumerator SpawnEnragedAttack()
+    {
+        for (int i = 0; i < amountOfAttack; i++)
+        {
+            GameObject magicAttack = Instantiate(attackPrefab, attackLoc.transform.position, Quaternion.identity);
+
+            yield return new WaitForSeconds(timeAttackInterval);
+        }
     }
 }
