@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1220606535383638983}
   m_Layer: 0
   m_Name: Artifact Prabu (Left)
-  m_TagString: Artifact
+  m_TagString: PrabuArtifact
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

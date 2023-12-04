@@ -7,6 +7,16 @@ public class Attack : MonoBehaviour
     public int attackDamage = 10;
     public Vector2 knockback = Vector2.zero;
 
+    public void MagicAttackSound()
+    {
+        SoundManager.Instance.Play("MagicAttack");
+    }
+
+    public void ThunderSound()
+    {
+        SoundManager.Instance.Play("Thunder");
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Damage damage = collision.GetComponent<Damage>();

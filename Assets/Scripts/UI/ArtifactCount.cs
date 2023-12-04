@@ -23,10 +23,21 @@ public class ArtifactCount : MonoBehaviour
 
     public void ShowAmountArtifact()
     {
-        canvasGroup.alpha = 1f;
-        amountText.text = "Artifact " + player.artifactAmount + "/3 Acquired" ;
+        if(player.artifactPrabuAmount >= 1)
+        {
+            canvasGroup.alpha = 1f;
+            amountText.text = "Artifact " + player.artifactPrabuAmount + "/3 Acquired";
 
-        StartCoroutine(HideAmountArtifactAfterDelay(3f));
+            StartCoroutine(HideAmountArtifactAfterDelay(3f));
+        }
+
+        else if (player.artifactPakandeAmount >= 1)
+        {
+            canvasGroup.alpha = 1f;
+            amountText.text = "Artifact " + player.artifactPakandeAmount + "/3 Acquired";
+
+            StartCoroutine(HideAmountArtifactAfterDelay(3f));
+        }
     }
 
     private IEnumerator HideAmountArtifactAfterDelay(float delay)

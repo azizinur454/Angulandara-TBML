@@ -19,11 +19,11 @@ public class NPC : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") == true)
         {
-            if(player.isArtifactComplete)
+            if(player.isArtifactPrabuComplete)
             {
                 trigger.StartDialogue();
             }
-            else if(!player.isArtifactComplete)
+            else if(!player.isArtifactPrabuComplete)
             {
                 trigger.StartAlternativeDialogue();
             }

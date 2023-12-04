@@ -23,8 +23,10 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 8f;
 
     [Header("Artifact Settings")]
-    public int artifactAmount = 0;
-    public bool isArtifactComplete = false;
+    public int artifactPrabuAmount = 0;
+    public int artifactPakandeAmount = 0;
+    public bool isArtifactPrabuComplete = false;
+    public bool isArtifactPakandeComplete = false;
 
     Vector2 moveInput;
 
@@ -183,6 +185,8 @@ public class PlayerController : MonoBehaviour
         {
             input.ActivateInput();
         }
+
+        OnIncreaseSpeed();
     }
 
     private void SetFacingDirection(Vector2 moveInput)
@@ -282,6 +286,15 @@ public class PlayerController : MonoBehaviour
         onAirSpeed = onAirSpeed * 2;
     }
 
+    public void OnIncreaseSpeed()
+    {
+        if(isArtifactPakandeComplete)
+        {
+            walkSpeed = 6f;
+            runSpeed = 8f;
+        }
+    }
+
     public void WalkSound()
     {
         SoundManager.Instance.Play("Walk");
@@ -308,14 +321,25 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Artifact"))
+        if (collision.CompareTag("PrabuArtifact"))
         {
             SoundManager.Instance.Play("CollectArtifact");
-            artifactAmount++;
+            artifactPrabuAmount++;
             artifactCount.ShowAmountArtifact();
-            if (artifactAmount >= 3)
+            if (artifactPrabuAmount >= 3)
             {
-                isArtifactComplete = true;
+                isArtifactPrabuComplete = true;
+            }
+        }
+
+        else if (collision.CompareTag("PakandeArtifact"))
+        {
+            SoundManager.Instance.Play("CollectArtifact");
+            artifactPakandeAmount++;
+            artifactCount.ShowAmountArtifact();
+            if (artifactPakandeAmount >= 3)
+            {
+                isArtifactPakandeComplete = true;
             }
         }
     }
