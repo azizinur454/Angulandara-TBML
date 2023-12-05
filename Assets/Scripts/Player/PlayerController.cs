@@ -290,8 +290,8 @@ public class PlayerController : MonoBehaviour
     {
         if(isArtifactPakandeComplete)
         {
-            walkSpeed = 6f;
-            runSpeed = 8f;
+            walkSpeed = 7f;
+            runSpeed = 9f;
         }
     }
 

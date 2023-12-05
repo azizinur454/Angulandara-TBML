@@ -202,7 +202,7 @@ public class Pakande : MonoBehaviour
     {
         GameObject warning = Instantiate(warningSign[0], warningLoc.transform.position, Quaternion.identity);
 
-        Destroy(warning, 0.6f);
+        Destroy(warning, 6f);
     }
 
     public void SpawnWarningSign2()
@@ -215,15 +215,17 @@ public class Pakande : MonoBehaviour
     public void SpawnUltimateAttack()
     {
         GameObject ultimateAttack = Instantiate(thunderFX[0], ultimateLoc.transform.position, Quaternion.identity);
+        SoundManager.Instance.Play("Thunder");
 
-        Destroy(ultimateAttack, 4.2f);
+        Destroy(ultimateAttack, 4f);
     }
 
     public void SpawnUltimateAttack2()
     {
         GameObject ultimateAttack = Instantiate(thunderFX[1], ultimateLoc.transform.position, Quaternion.identity);
+        SoundManager.Instance.Play("Thunder");
 
-        Destroy(ultimateAttack, 4.2f);
+        Destroy(ultimateAttack, 4f);
     }
 
     public void ChargeAttackSound()
@@ -245,7 +247,7 @@ public class Pakande : MonoBehaviour
 
     IEnumerator ChargingAttack()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(4f);
 
         animator.SetTrigger("ultimateAttack");
     }

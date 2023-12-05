@@ -18253,7 +18253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &656080959
 Transform:
   m_ObjectHideFlags: 0
@@ -19598,7 +19598,97 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths: []
+  m_ColliderPaths:
+  - m_Collider: {fileID: 656080964}
+    m_ColliderPaths:
+    - - X: 930184704
+        Y: -80098400
+      - X: 930184704
+        Y: -80098264
+      - X: 1009867392
+        Y: -80098264
+      - X: 1009867392
+        Y: -80118792
+      - X: 1020163200
+        Y: -80118792
+      - X: 1020163200
+        Y: -70137686
+      - X: 1020183552
+        Y: -70127512
+      - X: 1020183552
+        Y: -29831758
+      - X: 1020183424
+        Y: -29831758
+      - X: 1020183424
+        Y: -19820450
+      - X: 1010194496
+        Y: -19820450
+      - X: 1010194496
+        Y: -19800102
+      - X: 930184960
+        Y: -19800102
+      - X: 930184960
+        Y: -19779772
+      - X: 919848320
+        Y: -19779772
+      - X: 919848320
+        Y: -30034676
+      - X: 919868800
+        Y: -30055151
+      - X: 919868800
+        Y: -69802640
+      - X: 919848128
+        Y: -69802640
+      - X: 919848128
+        Y: -80057536
+      - X: 919929792
+        Y: -80139256
+      - X: 930102976
+        Y: -80139256
+    - - X: 400184736
+        Y: -80098400
+      - X: 400184736
+        Y: -80098264
+      - X: 489867424
+        Y: -80098264
+      - X: 489867424
+        Y: -80118792
+      - X: 500163200
+        Y: -80118792
+      - X: 500163200
+        Y: -70137690
+      - X: 500183552
+        Y: -70127512
+      - X: 500183552
+        Y: -39831756
+      - X: 500183360
+        Y: -39831756
+      - X: 500183360
+        Y: -29820450
+      - X: 490194496
+        Y: -29820450
+      - X: 490194496
+        Y: -29800102
+      - X: 400184960
+        Y: -29800102
+      - X: 400184960
+        Y: -29779772
+      - X: 389848352
+        Y: -29779772
+      - X: 389848352
+        Y: -40034676
+      - X: 389868736
+        Y: -40055056
+      - X: 389868736
+        Y: -69802640
+      - X: 389848096
+        Y: -69802640
+      - X: 389848096
+        Y: -80057536
+      - X: 389929824
+        Y: -80139256
+      - X: 400103040
+        Y: -80139256
   m_CompositePaths:
     m_Paths:
     - - {x: 93.01029, y: -8.013926}
@@ -20511,7 +20601,7 @@ Transform:
   m_GameObject: {fileID: 728621007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 194.5, y: 5.5, z: -10}
+  m_LocalPosition: {x: -29.34, y: -4.96, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22946,7 +23036,7 @@ Transform:
   m_GameObject: {fileID: 997543821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 194.5, y: 5.5, z: -10}
+  m_LocalPosition: {x: -25.533289, y: -4.94557, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23345,6 +23435,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: ClickButtonSound
       objectReference: {fileID: 0}
+    - target: {fileID: 6283417078445141022, guid: 0e937e6e89d487c438603e245b0469eb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 10a0bcb5d07ba664e8eda860be256277, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24027,11 +24121,11 @@ PrefabInstance:
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[17].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 550bb2528b7593a42a573aa3679a5ffe, type: 3}
+      objectReference: {fileID: 8300000, guid: 2685535ba9536c3469d07b21f9ef097b, type: 3}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[18].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 9e431c1db6d055743b081ecfc662a91f, type: 3}
+      objectReference: {fileID: 8300000, guid: ad468291cba03ae4f8b3fa38aff809d6, type: 3}
     - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.909042
@@ -25007,11 +25101,11 @@ PrefabInstance:
       objectReference: {fileID: 7755762068659503075, guid: 54652a63e95441a49943085654523f43, type: 3}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 194.5
+      value: -29.34
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.5
+      value: -4.96
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.z
@@ -53604,7 +53698,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3376980346994091789, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: _health
-      value: 25
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 3376980346994091789, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: _maxHealth
@@ -53825,6 +53919,9 @@ SceneRoots:
   - {fileID: 338341537}
   - {fileID: 303729377}
   - {fileID: 119831442}
+  - {fileID: 404608667}
+  - {fileID: 1563975999}
+  - {fileID: 1367795602}
   - {fileID: 7156699753413288340}
   - {fileID: 723796671}
   - {fileID: 2109445920}
@@ -53845,6 +53942,3 @@ SceneRoots:
   - {fileID: 366401850}
   - {fileID: 1419972356}
   - {fileID: 784787684}
-  - {fileID: 404608667}
-  - {fileID: 1563975999}
-  - {fileID: 1367795602}
