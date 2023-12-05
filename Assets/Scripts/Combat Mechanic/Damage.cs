@@ -127,6 +127,11 @@ public class Damage : MonoBehaviour
 
             timeSinceHit += Time.deltaTime;
         }
+
+        if(stageClear.isFinish)
+        {
+            isInvincible = true;
+        }
     }
 
     public bool Hit(int damage, Vector2 knockback)

@@ -148,19 +148,19 @@ public class Pakande : MonoBehaviour
 
     public void OnHealthConditionChanged()
     {
-        if (damage.Health >= 101 && damage.Health <= 150)
+        if (damage.Health >= 76 && damage.Health <= 100)
         {
             MoveToPosition(enemyPos[0]);
         }
 
-        else if (damage.Health >= 51 && damage.Health <= 100 && !isFinishUltimate)
+        else if (damage.Health >= 51 && damage.Health <= 75 && !isFinishUltimate)
         {
             IsCharging = true;
             IsEnraged = true;
             MoveToPosition(enemyPos[2]);
         }
 
-        else if (damage.Health >= 51 && damage.Health <= 100 && isFinishUltimate)
+        else if (damage.Health >= 51 && damage.Health <= 75 && isFinishUltimate)
         {
             IsCharging = false;
             IsEnraged = true;
@@ -169,6 +169,7 @@ public class Pakande : MonoBehaviour
 
         else if (damage.Health >= 0 && damage.Health <= 50)
         {
+            IsEnraged = true;
             MoveToPosition(enemyPos[1]);
         }
     }
@@ -215,14 +216,14 @@ public class Pakande : MonoBehaviour
     {
         GameObject ultimateAttack = Instantiate(thunderFX[0], ultimateLoc.transform.position, Quaternion.identity);
 
-        Destroy(ultimateAttack, 4f);
+        Destroy(ultimateAttack, 4.2f);
     }
 
     public void SpawnUltimateAttack2()
     {
         GameObject ultimateAttack = Instantiate(thunderFX[1], ultimateLoc.transform.position, Quaternion.identity);
 
-        Destroy(ultimateAttack, 4f);
+        Destroy(ultimateAttack, 4.2f);
     }
 
     public void ChargeAttackSound()
