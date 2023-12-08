@@ -20601,7 +20601,7 @@ Transform:
   m_GameObject: {fileID: 728621007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.34, y: -4.96, z: -10}
+  m_LocalPosition: {x: -29.28, y: -4.94, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20901,6 +20901,38 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 453566082}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &752669982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 752669983}
+  m_Layer: 0
+  m_Name: AmbientSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &752669983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752669982}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.420149, y: 0.8154385, z: 2.7646294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2017509406}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &757710899
 GameObject:
@@ -23036,7 +23068,7 @@ Transform:
   m_GameObject: {fileID: 997543821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.533075, y: -4.94557, z: -10}
+  m_LocalPosition: {x: -25.533323, y: -4.9258, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23932,7 +23964,7 @@ PrefabInstance:
       objectReference: {fileID: -8554736346287009622, guid: 7e69928ef46798544b48d3df346a5294, type: 2}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.size
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[0].volume
@@ -24023,6 +24055,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[21].source
+      value: 
+      objectReference: {fileID: 2017509407}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[21].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[0].clipName
       value: Stage1
       objectReference: {fileID: 0}
@@ -24081,6 +24121,10 @@ PrefabInstance:
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[20].clipName
       value: Landing
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[21].clipName
+      value: WaterStream
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[8].audioClip
@@ -24150,6 +24194,10 @@ PrefabInstance:
       propertyPath: sounds.Array.data[20].audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 89addb476039ab3439bd7da61fb06a07, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[21].audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.909042
@@ -25123,13 +25171,17 @@ PrefabInstance:
       propertyPath: slashPrefab
       value: 
       objectReference: {fileID: 7755762068659503075, guid: 54652a63e95441a49943085654523f43, type: 3}
+    - target: {fileID: 6136140440398823180, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2017509407}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.34
+      value: -29.28
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.96
+      value: -4.94
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28331,6 +28383,73 @@ Transform:
   m_Children: []
   m_Father: {fileID: 453566082}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2017509405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 752669983}
+    m_Modifications:
+    - target: {fileID: 1310466252391490372, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_Name
+      value: WaterSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 103.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.948058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+--- !u!4 &2017509406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+  m_PrefabInstance: {fileID: 2017509405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2017509407 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6471884348593110960, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+  m_PrefabInstance: {fileID: 2017509405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2019003228
 GameObject:
   m_ObjectHideFlags: 0
@@ -53970,3 +54089,4 @@ SceneRoots:
   - {fileID: 366401850}
   - {fileID: 1419972356}
   - {fileID: 784787684}
+  - {fileID: 752669983}

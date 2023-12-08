@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class Damage : MonoBehaviour
+public class PrabuHealth : MonoBehaviour
 {
     Animator animator;
     StageClear stageClear;
@@ -43,7 +43,7 @@ public class Damage : MonoBehaviour
             // kondisi untuk membuat nilai darah tidak kurang dari 0
             if (value < 0)
             {
-                _health = 0; 
+                _health = 0;
             }
             else
             {
@@ -53,7 +53,7 @@ public class Damage : MonoBehaviour
             healthChanged?.Invoke(_health, MaxHealth);
 
             // kondisi ketika darah kurang dari sama dengan 0 = player mati
-            if(_health <= 0)
+            if (_health <= 0)
             {
                 IsAlive = false;
 
@@ -63,7 +63,7 @@ public class Damage : MonoBehaviour
                     Score.instance.AddKillingEnemyScore(enemyScore);
                 }
 
-                if(CompareTag("Boss"))
+                if (CompareTag("Boss"))
                 {
                     stageClear.isFinish = true;
                     SoundManager.Instance.Stop("BossBGM");
@@ -117,9 +117,9 @@ public class Damage : MonoBehaviour
 
     private void Update()
     {
-        if(isInvincible)
+        if (isInvincible)
         {
-            if(timeSinceHit > invicibilityTime)
+            if (timeSinceHit > invicibilityTime)
             {
                 isInvincible = false;
                 timeSinceHit = 0;
@@ -128,7 +128,7 @@ public class Damage : MonoBehaviour
             timeSinceHit += Time.deltaTime;
         }
 
-        if(stageClear.isFinish)
+        if (stageClear.isFinish)
         {
             isInvincible = true;
         }
@@ -143,7 +143,7 @@ public class Damage : MonoBehaviour
             animator.SetTrigger("hit");
             LockVelocity = true;
             hitDamage?.Invoke(damage, knockback);
-            if(Health > 0)
+            if (Health > 0)
             {
                 CharacterEvent.characterDamaged.Invoke(gameObject, damage);
             }
@@ -152,7 +152,7 @@ public class Damage : MonoBehaviour
         }
 
         return false;
-    }    
+    }
 
     public void Heal(int healthrestored)
     {
@@ -163,20 +163,5 @@ public class Damage : MonoBehaviour
             Health += actualHeal;
             CharacterEvent.characterHealed(gameObject, "Health Restored");
         }
-    }
-    public void BowAttackSound()
-    {
-        SoundManager.Instance.Play("BowAttack");
-    }
-
-    public void LoadLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void Respawn()
-    {
-        Health = 100;
-        IsAlive = true;
     }
 }

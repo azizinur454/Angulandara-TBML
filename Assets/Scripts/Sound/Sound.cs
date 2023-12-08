@@ -5,7 +5,7 @@ public class Sound
 {
     public enum AudioTypes { SFX, BGM };
     public AudioTypes audioType;
-    [HideInInspector] public AudioSource source;
+    public AudioSource source;
     public string clipName;
     public AudioClip audioClip;
     public bool isLoop;

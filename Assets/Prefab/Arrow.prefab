@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rangeDamage: 5
-  moveSpeed: {x: 5, y: 0}
+  moveSpeed: {x: 6, y: 0}
   knockback: {x: 2, y: 0}
