@@ -10,11 +10,13 @@ public class Arrow : MonoBehaviour
 
     Rigidbody2D rb;
     PlayerController player;
+    Damage damage;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         player = FindObjectOfType<PlayerController>();
+        damage = FindObjectOfType<Damage>();
     }
 
     private void Start()
@@ -54,6 +56,7 @@ public class Arrow : MonoBehaviour
 
             if (gotHit)
             {
+                SoundManager.Instance.Play("ArrowImpact");
                 Debug.Log(collision.name + "Damage : " + rangeDamage);
                 Destroy(gameObject);
             }
@@ -61,6 +64,16 @@ public class Arrow : MonoBehaviour
         }
 
         if (collision.gameObject.CompareTag("Ground"))
+        {
+            Destroy(gameObject);
+        }
+
+        else if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+
+        else if (collision.gameObject.CompareTag("Boss"))
         {
             Destroy(gameObject);
         }

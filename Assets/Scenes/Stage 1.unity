@@ -405,6 +405,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2858881555662890583, guid: a91886b7ab708d640a6ecca790ffa2b1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3154859389689682670, guid: a91886b7ab708d640a6ecca790ffa2b1, type: 3}
       propertyPath: hitDamage.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -6095,7 +6099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.95
+      value: 13.88
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6637,7 +6641,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.54, y: 13.95, z: -10}
+  m_LocalPosition: {x: -56.54, y: 13.88, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7998,7 +8002,7 @@ PrefabInstance:
       objectReference: {fileID: -8554736346287009622, guid: 7e69928ef46798544b48d3df346a5294, type: 2}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.size
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[7].volume
@@ -8037,6 +8041,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[15].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[16].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[8].clipName
       value: BossBGM
       objectReference: {fileID: 0}
@@ -8067,6 +8079,14 @@ PrefabInstance:
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[14].clipName
       value: CollectArtifact
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[15].clipName
+      value: ArrowImpact
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[16].clipName
+      value: Landing
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[8].audioClip
@@ -8112,6 +8132,14 @@ PrefabInstance:
       propertyPath: sounds.Array.data[14].audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 6da565ed8f7c35c44b7ee1da4f97ce54, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[15].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f8052d95890a93d4f892a046dd4bc006, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[16].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 89addb476039ab3439bd7da61fb06a07, type: 3}
     - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12409,7 +12437,7 @@ Transform:
   m_GameObject: {fileID: 1236765712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.54, y: 13.95, z: -10}
+  m_LocalPosition: {x: -56.54, y: 13.88, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

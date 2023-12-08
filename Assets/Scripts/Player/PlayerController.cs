@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 7f;
     public float onAirSpeed = 5f;
     public float jumpForce = 8f;
+    private bool isPlaySound = false;
 
     [Header("Artifact Settings")]
     public int artifactPrabuAmount = 0;
@@ -164,6 +165,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         tutorialScreen.isTutorial = true;
+        Invoke("StartSoundLanding", 1f);
     }
 
     private void FixedUpdate()
@@ -295,6 +297,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void StartSoundLanding()
+    {
+        isPlaySound = true;
+    }
+
     public void WalkSound()
     {
         SoundManager.Instance.Play("Walk");
@@ -319,6 +326,18 @@ public class PlayerController : MonoBehaviour
         SoundManager.Instance.Play("Slash");
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground") && isPlaySound)
+        {
+            SoundManager.Instance.Play("Landing");
+        }
+
+        else if (collision.gameObject.CompareTag("Teleport") && isPlaySound)
+        {
+            SoundManager.Instance.Play("Landing");
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PrabuArtifact"))

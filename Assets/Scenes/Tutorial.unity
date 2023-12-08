@@ -196,7 +196,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.023711324, y: 0.020781994, z: 0}
   m_MaxChunkCount: 16
@@ -1446,7 +1446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4940375956351457347, guid: 5c41481538e0e4341b98ed4f18bc96ca, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5406931877358725071, guid: 5c41481538e0e4341b98ed4f18bc96ca, type: 3}
       propertyPath: m_Name
@@ -21439,7 +21439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4940375956351457347, guid: 5c41481538e0e4341b98ed4f18bc96ca, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5406931877358725071, guid: 5c41481538e0e4341b98ed4f18bc96ca, type: 3}
       propertyPath: m_Name
@@ -25108,7 +25108,7 @@ PrefabInstance:
       objectReference: {fileID: -8554736346287009622, guid: 7e69928ef46798544b48d3df346a5294, type: 2}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.size
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[0].volume
@@ -25171,6 +25171,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[15].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[16].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[8].clipName
       value: Lose
       objectReference: {fileID: 0}
@@ -25201,6 +25209,14 @@ PrefabInstance:
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[14].clipName
       value: CollectSpirit
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[15].clipName
+      value: ArrowImpact
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[16].clipName
+      value: Landing
       objectReference: {fileID: 0}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[8].audioClip
@@ -25250,6 +25266,14 @@ PrefabInstance:
       propertyPath: sounds.Array.data[14].audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 1b26dcea34ddde84abdbaa7c76d5c748, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[15].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f8052d95890a93d4f892a046dd4bc006, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[16].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 89addb476039ab3439bd7da61fb06a07, type: 3}
     - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
