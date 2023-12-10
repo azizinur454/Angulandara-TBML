@@ -17938,6 +17938,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: actors.Array.data[1].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9ba07af05b2491a4c960fb67d2098dd3, type: 3}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: actors.Array.data[2].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
       value: 1
       objectReference: {fileID: 0}
