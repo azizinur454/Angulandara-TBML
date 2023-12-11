@@ -90,6 +90,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0c9b55f3e2745d42b3d234e6d082c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgmSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
+  onMute: {fileID: 0}
+  offMute: {fileID: 0}
+  onPlay: {fileID: 0}
+  offPlay: {fileID: 0}
+  bgmMixerGroup: {fileID: 0}
+  sfxMixerGroup: {fileID: 0}
   sounds:
   - audioType: 1
     source: {fileID: 0}
@@ -105,45 +113,4 @@ MonoBehaviour:
     isLoop: 0
     playOnAwake: 0
     volume: 0.5
-  - audioType: 0
-    source: {fileID: 0}
-    clipName: Walk
-    audioClip: {fileID: 8300000, guid: ef40ceb4e42d0b54daf85f3160d02e33, type: 3}
-    isLoop: 0
-    playOnAwake: 0
-    volume: 0.5
-  - audioType: 0
-    source: {fileID: 0}
-    clipName: Run
-    audioClip: {fileID: 8300000, guid: db360be7b9659e846b3909a513e41f6e, type: 3}
-    isLoop: 0
-    playOnAwake: 0
-    volume: 0.5
-  - audioType: 0
-    source: {fileID: 0}
-    clipName: EnemyHit
-    audioClip: {fileID: 8300000, guid: ba96be843f4c3cf43abe8336f7a61971, type: 3}
-    isLoop: 0
-    playOnAwake: 0
-    volume: 0.5
-  - audioType: 0
-    source: {fileID: 0}
-    clipName: Slash
-    audioClip: {fileID: 8300000, guid: 7ef4f241d87ac0f4e914e0f6f0db8310, type: 3}
-    isLoop: 0
-    playOnAwake: 0
-    volume: 0.4
-  - audioType: 0
-    source: {fileID: 0}
-    clipName: Jump
-    audioClip: {fileID: 8300000, guid: 508084d319e6f334aaeecc8c64c3c8d9, type: 3}
-    isLoop: 0
-    playOnAwake: 0
-    volume: 0.5
-  - audioType: 0
-    source: {fileID: 0}
-    clipName: Button
-    audioClip: {fileID: 8300000, guid: 755a616f8010e5b4bb52d010abf9a567, type: 3}
-    isLoop: 0
-    playOnAwake: 0
-    volume: 0.5
+  isMuted: 0

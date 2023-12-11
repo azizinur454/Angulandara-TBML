@@ -8,6 +8,7 @@ public class CutsceneDialogueTrigger : MonoBehaviour
 
     public CutsceneMessage[] messages;
     public CutsceneActor[] actors;
+    public GameObject dialog;
 
     private void Awake()
     {
@@ -16,12 +17,20 @@ public class CutsceneDialogueTrigger : MonoBehaviour
 
     private void Start()
     {
-        StartDialogue();
+        StartCoroutine(DelayStartDialogue(4f));
     }
 
     public void StartDialogue()
     {
+        dialog.SetActive(true);
         cutsceneDialogueManager.OpenDialogue(messages, actors);
+    }
+
+    IEnumerator DelayStartDialogue(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        StartDialogue();
     }
 }
 

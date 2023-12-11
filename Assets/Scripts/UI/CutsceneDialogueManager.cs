@@ -3,9 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CutsceneDialogueManager : MonoBehaviour
 {
+    Animator animator;
+
     public TMP_Text actorName;
     public TMP_Text messageText;
     public RectTransform backgroundBox;
@@ -19,6 +22,11 @@ public class CutsceneDialogueManager : MonoBehaviour
     CutsceneActor[] currentActors;
     int activeMessage = 0;
     public static bool isActive = false;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     public void OpenDialogue(CutsceneMessage[] messages, CutsceneActor[] actors)
     {
@@ -76,6 +84,7 @@ public class CutsceneDialogueManager : MonoBehaviour
             Debug.Log("Conversation End");
             isActive = false;
             dialogue.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
@@ -128,6 +137,7 @@ public class CutsceneDialogueManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonUp(0) && isActive == true)
         {
+            SoundManager.Instance.Play("Click");
             NextMessage();
         }
     }

@@ -635,6 +635,17 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+--- !u!114 &1010934427 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 775429222870273850, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1031973472
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +741,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1299197765}
+  - {fileID: 1718689688}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -746,6 +758,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1275131533}
+  - component: {fileID: 1275131535}
+  - component: {fileID: 1275131534}
   m_Layer: 5
   m_Name: Dialogue
   m_TagString: Untagged
@@ -773,6 +787,127 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1275131534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275131532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72363ab4a9d3e974db2ec136dc5b9961, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actorName: {fileID: 493725761}
+  messageText: {fileID: 1767379445}
+  backgroundBox: {fileID: 1325399844}
+  dialogueSpeed: 1
+  dialogue: {fileID: 1325399843}
+  pictures:
+  - {fileID: 338245241}
+  - {fileID: 2112339462}
+  - {fileID: 1362312524}
+  - {fileID: 38629065}
+  - {fileID: 425363063}
+  - {fileID: 1976125075}
+  - {fileID: 900402761}
+  - {fileID: 1622782607}
+--- !u!114 &1275131535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275131532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0207de4ff92a824b91dccc4144384fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messages:
+  - actorId: 3
+    message: Di suatu hari yang cerah, muncul dua anak muda bernama Pandu dan Kirana
+      yang sedang bermain di tengah padang rumput yang luas. Mereka adalah kakak
+      beradik memiliki sifat semangat yang tinggi dan senang berpetualang.
+  - actorId: 3
+    message: Tidak lama setelah mereka bermain gobak sodor, mereka melihat sebuah
+      pohon raksasa yang menjulang tinggi dari kejauhan dan terlihat begitu misterius.
+  - actorId: 0
+    message: Ayo kita pergi ke sana, Kirana! Pohon itu pasti punya cerita menarik
+      di dalamnya.
+  - actorId: 1
+    message: Pandu, mungkin lebih baik kita tidak pergi kesana. Tempat itu sangat
+      berbahaya.
+  - actorId: 3
+    message: Tetapi, Pandu tetap tidak mendengarkan peringatan adiknya. Tanpa ragu,
+      Pandu berjalan menuju pohon raksasa tersebut dan Kirana mengikutinya dengan
+      hati-hati dari belakang.
+  - actorId: 3
+    message: Mereka melihat sebuah lubang yang cukup besar dan mencurigakan di antara
+      akar-akar pohon tersebut.
+  - actorId: 3
+    message: Pandu yang merasa penasaran dengan lubang misterius tersebut memutuskan
+      untuk memasuki lubang tersebut dan dengan cepat menghilang dalam kegelapan.
+  - actorId: 3
+    message: Tempat tersebut begitu gelap dan mereka terjebak di dalam lubang pohon
+      tersebut. Kirana segera menyalakan korek api yang dia bawa dan ikut masuk ke
+      dalam lubang tersebut dengan hati-hati.
+  - actorId: 3
+    message: Saat mereka mencapai bagian dalam, Pandu tersandung oleh akar-akar pohon.
+      Kirana dengan cepat menghampiri Pandu dan membantunya berdiri.
+  - actorId: 3
+    message: 'Mereka melihat sesuatu yang mengejutkan dimana mereka melihat sebuah
+      buku besar yang tersegel oleh akar-akar pohon. '
+  - actorId: 3
+    message: Tanpa ragu, Pandu mencoba melepaskan buku itu dari akar-akar yang ada
+      disekelilingnya.
+  - actorId: 3
+    message: Akar-akar tersebut akhirnya terlepas, membuat buku itu terangkat dengan
+      sendirinya dan mengeluarkan cahaya secara tiba-tiba.
+  - actorId: 3
+    message: Cahaya itu begitu terang sehingga membuat Pandu dan Kirana merasa terbangun
+      di dalam dunia yang berbeda. Namun pada akhirnya, mereka berdua pingsan di
+      tempat tersebut.
+  - actorId: 3
+    message: Pandu dan Kirana terbangun dengan perasaan pusing. Mereka saling menatap
+      satu sama lain dengan penuh kebingungan.
+  - actorId: 3
+    message: Tidak lama kemudian, mereka melihat seorang kakek yang berdiri di depan
+      mereka dengan tatapan tajam dengan raut wajah yang penuh kekhawatiran.
+  - actorId: 2
+    message: Kalian telah melakukan kesalahan besar karena telah membuka buku ini.
+  - actorId: 0
+    message: Maaf Kakek, kami tidak tahu bahwa buku ini begitu penting. Sebenernya
+      buku apakah ini?
+  - actorId: 2
+    message: Buku ini adalah buku sakral yang seharusnya tidak boleh dibuka kembali.
+  - actorId: 2
+    message: Kalian telah melepaskan beberapa makhluk mitos yang seharusnya tersegel
+      selamanya di dalam buku itu.
+  - actorId: 2
+    message: Karena kalian telah membuka buku ini, kalian harus menyegel kembali
+      makhluk-makhluk tersebut. Namun sebelum kalian pergi, saya akan memberikan
+      senjata kepada kalian berdua.
+  - actorId: 0
+    message: Mengapa kakek mempercayakan hal tersebut kepada kami?
+  - actorId: 2
+    message: Kakek melihat bahwa kalian mempunyai darah keturunan dari legenda Timun
+      Mas dan itulah mengapa kakek mempercayakan kalian untuk menjalankan tugas ini.
+      Kalian memiliki kekuatan yang tidak dimiliki banyak orang.
+  - actorId: 0
+    message: Baik kakek, kami akan menyegel kembali makhluk-makhluk tersebut untuk
+      menebus kesalahan kami.
+  - actorId: 3
+    message: Mereka menerima tugas tersebut dan mengambil sebuah kotak kecil dari
+      kakek yang berisi pusaka untuk melawan makhluk-makhluk tersebut. Disaat inilah
+      petualangan besar mereka akan dimulai.
+  actors:
+  - name: Pandu
+  - name: Kirana
+  - name: Kakek
+  - name: ' '
+  dialog: {fileID: 1325399843}
 --- !u!1 &1299197764
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,15 +1017,13 @@ GameObject:
   - component: {fileID: 1325399844}
   - component: {fileID: 1325399846}
   - component: {fileID: 1325399845}
-  - component: {fileID: 1325399847}
-  - component: {fileID: 1325399848}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1325399844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -950,126 +1083,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325399843}
   m_CullTransparentMesh: 1
---- !u!114 &1325399847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325399843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72363ab4a9d3e974db2ec136dc5b9961, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actorName: {fileID: 493725761}
-  messageText: {fileID: 1767379445}
-  backgroundBox: {fileID: 1325399844}
-  dialogueSpeed: 1
-  dialogue: {fileID: 1325399843}
-  pictures:
-  - {fileID: 338245241}
-  - {fileID: 2112339462}
-  - {fileID: 1362312524}
-  - {fileID: 38629065}
-  - {fileID: 425363063}
-  - {fileID: 1976125075}
-  - {fileID: 900402761}
-  - {fileID: 1622782607}
---- !u!114 &1325399848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325399843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0207de4ff92a824b91dccc4144384fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messages:
-  - actorId: 3
-    message: Di suatu hari yang cerah, muncul dua anak muda bernama Pandu dan Kirana
-      yang sedang bermain di tengah padang rumput yang luas. Mereka adalah kakak
-      beradik memiliki sifat semangat yang tinggi dan senang berpetualang.
-  - actorId: 3
-    message: Tidak lama setelah mereka bermain gobak sodor, mereka melihat sebuah
-      pohon raksasa yang menjulang tinggi dari kejauhan dan terlihat begitu misterius.
-  - actorId: 0
-    message: Ayo kita pergi ke sana, Kirana! Pohon itu pasti punya cerita menarik
-      di dalamnya.
-  - actorId: 1
-    message: Pandu, mungkin lebih baik kita tidak pergi kesana. Tempat itu sangat
-      berbahaya.
-  - actorId: 3
-    message: Tetapi, Pandu tetap tidak mendengarkan peringatan adiknya. Tanpa ragu,
-      Pandu berjalan menuju pohon raksasa tersebut dan Kirana mengikutinya dengan
-      hati-hati dari belakang.
-  - actorId: 3
-    message: Mereka melihat sebuah lubang yang cukup besar dan mencurigakan di antara
-      akar-akar pohon tersebut.
-  - actorId: 3
-    message: Pandu yang merasa penasaran dengan lubang misterius tersebut memutuskan
-      untuk memasuki lubang tersebut dan dengan cepat menghilang dalam kegelapan.
-  - actorId: 3
-    message: Tempat tersebut begitu gelap dan mereka terjebak di dalam lubang pohon
-      tersebut. Kirana segera menyalakan korek api yang dia bawa dan ikut masuk ke
-      dalam lubang tersebut dengan hati-hati.
-  - actorId: 3
-    message: Saat mereka mencapai bagian dalam, Pandu tersandung oleh akar-akar pohon.
-      Kirana dengan cepat menghampiri Pandu dan membantunya berdiri.
-  - actorId: 3
-    message: 'Mereka melihat sesuatu yang mengejutkan dimana mereka melihat sebuah
-      buku besar yang tersegel oleh akar-akar pohon. '
-  - actorId: 3
-    message: Tanpa ragu, Pandu mencoba melepaskan buku itu dari akar-akar yang ada
-      disekelilingnya.
-  - actorId: 3
-    message: Akar-akar tersebut akhirnya terlepas, membuat buku itu terangkat dengan
-      sendirinya dan mengeluarkan cahaya secara tiba-tiba.
-  - actorId: 3
-    message: Cahaya itu begitu terang sehingga membuat Pandu dan Kirana merasa terbangun
-      di dalam dunia yang berbeda. Namun pada akhirnya, mereka berdua pingsan di
-      tempat tersebut.
-  - actorId: 3
-    message: Pandu dan Kirana terbangun dengan perasaan pusing. Mereka saling menatap
-      satu sama lain dengan penuh kebingungan.
-  - actorId: 3
-    message: Tidak lama kemudian, mereka melihat seorang kakek yang berdiri di depan
-      mereka dengan tatapan tajam dengan raut wajah yang penuh kekhawatiran.
-  - actorId: 2
-    message: Kalian telah melakukan kesalahan besar karena telah membuka buku ini.
-  - actorId: 0
-    message: Maaf Kakek, kami tidak tahu bahwa buku ini begitu penting. Sebenernya
-      buku apakah ini?
-  - actorId: 2
-    message: Buku ini adalah buku sakral yang seharusnya tidak boleh dibuka kembali.
-  - actorId: 2
-    message: Kalian telah melepaskan beberapa makhluk mitos yang seharusnya tersegel
-      selamanya di dalam buku itu.
-  - actorId: 2
-    message: Karena kalian telah membuka buku ini, kalian harus menyegel kembali
-      makhluk-makhluk tersebut. Namun sebelum kalian pergi, saya akan memberikan
-      senjata kepada kalian berdua.
-  - actorId: 0
-    message: Mengapa kakek mempercayakan hal tersebut kepada kami?
-  - actorId: 2
-    message: Kakek melihat bahwa kalian mempunyai darah keturunan dari legenda Timun
-      Mas dan itulah mengapa kakek mempercayakan kalian untuk menjalankan tugas ini.
-      Kalian memiliki kekuatan yang tidak dimiliki banyak orang.
-  - actorId: 0
-    message: Baik kakek, kami akan menyegel kembali makhluk-makhluk tersebut untuk
-      menebus kesalahan kami.
-  - actorId: 3
-    message: Mereka menerima tugas tersebut dan mengambil sebuah kotak kecil dari
-      kakek yang berisi pusaka untuk melawan makhluk-makhluk tersebut. Disaat inilah
-      petualangan besar mereka akan dimulai.
-  actors:
-  - name: Pandu
-  - name: Kirana
-  - name: Kakek
-  - name: ' '
 --- !u!1 &1362312524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1285,17 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1579939808 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1955648726573990251, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1622782607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,6 +1371,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622782607}
   m_CullTransparentMesh: 1
+--- !u!1001 &1718689687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1031973476}
+    m_Modifications:
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1126.9165
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 788.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00030518
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044561606117938248, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Name
+      value: Option Menu
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+--- !u!224 &1718689688 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2591944651105981494, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1718689689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1776675470454506814, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1718689690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5570029763554944808, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1718689691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4332253252331838196, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1718689692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8775209361165870260, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 1718689687}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1767379443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,8 +1527,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 4.6063232, y: -49.22119}
-  m_SizeDelta: {x: -113.301025, y: 208.8956}
+  m_AnchoredPosition: {x: -5.6118164, y: -45.434814}
+  m_SizeDelta: {x: -133.7372, y: 216.4684}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767379445
 MonoBehaviour:
@@ -1800,6 +1946,115 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112339462}
   m_CullTransparentMesh: 1
+--- !u!1001 &2125089036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: onMute
+      value: 
+      objectReference: {fileID: 1718689692}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: onPlay
+      value: 
+      objectReference: {fileID: 1718689690}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: isMuted
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: offMute
+      value: 
+      objectReference: {fileID: 1718689691}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: offPlay
+      value: 
+      objectReference: {fileID: 1718689689}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: bgmSlider
+      value: 
+      objectReference: {fileID: 1010934427}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sfxSlider
+      value: 
+      objectReference: {fileID: 1579939808}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: bgmMixerGroup
+      value: 
+      objectReference: {fileID: 7244140693491941934, guid: 7e69928ef46798544b48d3df346a5294, type: 2}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sfxMixerGroup
+      value: 
+      objectReference: {fileID: -8554736346287009622, guid: 7e69928ef46798544b48d3df346a5294, type: 2}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[1].clipName
+      value: Click
+      objectReference: {fileID: 0}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5917effdb1d9a54428543e35302f32c2, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 755a616f8010e5b4bb52d010abf9a567, type: 3}
+    - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: sounds.Array.data[1].audioType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -54.909042
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2220347
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.110628694
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637770319362927651, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
+      propertyPath: m_Name
+      value: Sound Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1808,3 +2063,4 @@ SceneRoots:
   - {fileID: 1031973476}
   - {fileID: 1946675676}
   - {fileID: 908256799}
+  - {fileID: 2125089036}
