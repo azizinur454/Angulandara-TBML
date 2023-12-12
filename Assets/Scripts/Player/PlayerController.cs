@@ -326,6 +326,11 @@ public class PlayerController : MonoBehaviour
         SoundManager.Instance.Play("Slash");
     }
 
+    public void GetHitSound()
+    {
+        SoundManager.Instance.Play("GetHit");
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground") && isPlaySound)
