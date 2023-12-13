@@ -36,6 +36,17 @@ public class PlayerAttack : MonoBehaviour
                 }
             }
 
+            else if (player.isArtifactRoroComplete)
+            {
+                // objek terkena hit atau damage
+                bool gotHit = damage.Hit(boostAttack, KnockbackDirection);
+
+                if (gotHit)
+                {
+                    Debug.Log(collision.name + " Damage : " + boostAttack);
+                }
+            }    
+
             else
             {
                 // objek terkena hit atau damage

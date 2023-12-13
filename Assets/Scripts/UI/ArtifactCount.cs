@@ -38,6 +38,14 @@ public class ArtifactCount : MonoBehaviour
 
             StartCoroutine(HideAmountArtifactAfterDelay(3f));
         }
+
+        else if (player.artifactRoroAmount >= 1)
+        {
+            canvasGroup.alpha = 1f;
+            amountText.text = "Artifact " + player.artifactRoroAmount + "/3 Acquired";
+
+            StartCoroutine(HideAmountArtifactAfterDelay(3f));
+        }
     }
 
     private IEnumerator HideAmountArtifactAfterDelay(float delay)

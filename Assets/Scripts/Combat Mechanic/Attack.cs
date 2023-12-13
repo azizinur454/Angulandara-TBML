@@ -17,6 +17,16 @@ public class Attack : MonoBehaviour
         SoundManager.Instance.Play("Thunder");
     }
 
+    public void SplashAttackSound()
+    {
+        SoundManager.Instance.Play("SplashAttack");
+    }
+
+    public void BeamAttackSound()
+    {
+        SoundManager.Instance.Play("BeamAttack");
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Damage damage = collision.GetComponent<Damage>();

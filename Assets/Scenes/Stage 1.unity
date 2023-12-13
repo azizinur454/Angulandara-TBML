@@ -6074,6 +6074,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1021350665}
     - target: {fileID: 6136140440398823180, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
+      propertyPath: invicibilityTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136140440398823180, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: hitDamage.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}

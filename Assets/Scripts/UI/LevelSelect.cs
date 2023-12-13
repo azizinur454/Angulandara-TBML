@@ -76,6 +76,11 @@ public class LevelSelect : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
         }
+
+        else if (currentPage == 3)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+        }
     }
 
     public void ClickButtonSound()

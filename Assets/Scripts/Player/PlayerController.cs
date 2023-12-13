@@ -26,8 +26,10 @@ public class PlayerController : MonoBehaviour
     [Header("Artifact Settings")]
     public int artifactPrabuAmount = 0;
     public int artifactPakandeAmount = 0;
+    public int artifactRoroAmount = 0;
     public bool isArtifactPrabuComplete = false;
     public bool isArtifactPakandeComplete = false;
+    public bool isArtifactRoroComplete = false;
 
     Vector2 moveInput;
 
@@ -295,6 +297,12 @@ public class PlayerController : MonoBehaviour
             walkSpeed = 7f;
             runSpeed = 9f;
         }
+
+        else if(isArtifactRoroComplete)
+        {
+            walkSpeed = 7f;
+            runSpeed = 9f;
+        }
     }
 
     public void StartSoundLanding()
@@ -364,6 +372,17 @@ public class PlayerController : MonoBehaviour
             if (artifactPakandeAmount >= 3)
             {
                 isArtifactPakandeComplete = true;
+            }
+        }
+
+        else if (collision.CompareTag("RoroArtifact"))
+        {
+            SoundManager.Instance.Play("CollectArtifact");
+            artifactRoroAmount++;
+            artifactCount.ShowAmountArtifact();
+            if (artifactRoroAmount >= 3)
+            {
+                isArtifactRoroComplete = true;
             }
         }
     }

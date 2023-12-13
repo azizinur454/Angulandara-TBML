@@ -16,6 +16,7 @@ TagManager:
   - Objects
   - PakandeArtifact
   - PrabuArtifact
+  - RoroArtifact
   layers:
   - Default
   - TransparentFX
@@ -32,7 +33,7 @@ TagManager:
   - HealZone
   - Checkpoint
   - NPC
-  - 
+  - Obstacle
   - 
   - 
   - 

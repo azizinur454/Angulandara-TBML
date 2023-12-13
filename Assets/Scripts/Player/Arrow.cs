@@ -51,6 +51,11 @@ public class Arrow : MonoBehaviour
                 rangeDamage = rangeDamage * 2;
             }
 
+            else if(player.isArtifactRoroComplete == true)
+            {
+                rangeDamage = rangeDamage * 2;
+            }
+
             // objek terkena hit atau damage
             bool gotHit = damage.Hit(rangeDamage, KnockbackDirection);
 
