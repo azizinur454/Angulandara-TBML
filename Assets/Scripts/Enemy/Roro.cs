@@ -18,6 +18,23 @@ public class Roro : MonoBehaviour
     public DetectionZone attackZone;
     public GameObject splashAttackPrefab;
     public GameObject beamAttackPrefab;
+    public GameObject roroAura;
+    public GameObject auraDamage;
+    public bool hasBeenStunned = false;
+
+    public bool _isStunned = false;
+    public bool IsStunned
+    {
+        get
+        {
+            return _isStunned;
+        }
+        set
+        {
+            _isStunned = value;
+            animator.SetBool("isStunned", value);
+        }
+    }
 
     public bool CanMove
     {
@@ -65,6 +82,18 @@ public class Roro : MonoBehaviour
         }
     }
 
+    public float StunDuration
+    {
+        get
+        {
+            return animator.GetFloat("stunDuration");
+        }
+        set
+        {
+            animator.SetFloat("stunDuration", Mathf.Max(value, 0));
+        }
+    }
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -101,6 +130,46 @@ public class Roro : MonoBehaviour
         if (AttackCooldown2 > 0)
         {
             AttackCooldown2 -= Time.deltaTime;
+        }
+
+        if (StunDuration > 0)
+        {
+            StunDuration -= Time.deltaTime;
+        }
+
+        EnemyStunned();
+        RemoveBarrier();
+    }
+
+    public void EnemyStunned()
+    {
+        if (damage.Health <= 300 && !IsStunned && !hasBeenStunned)
+        {
+            IsStunned = true;
+            hasBeenStunned = true;
+        }
+
+        else
+        {
+            if(StunDuration <= 0)
+            {
+                IsStunned = false;
+            }
+        }
+    }
+
+    public void RemoveBarrier()
+    {
+        if (IsStunned)
+        {
+            roroAura.SetActive(false);
+            auraDamage.SetActive(false);
+        }
+
+        if(!IsStunned)
+        {
+            roroAura.SetActive(true);
+            auraDamage.SetActive(true);
         }
     }
 

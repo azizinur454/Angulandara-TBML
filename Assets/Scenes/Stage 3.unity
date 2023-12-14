@@ -3882,7 +3882,7 @@ Transform:
   m_GameObject: {fileID: 339962825}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89, y: 2.24, z: -10}
+  m_LocalPosition: {x: 61.71, y: 18.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31613,11 +31613,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 89
+      value: 61.71
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.24
+      value: 18.5
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42913,7 +42913,7 @@ MonoBehaviour:
       m_Calls: []
   enemyScore: 1000
   _maxHealth: 600
-  _health: 600
+  _health: 305
   _isAlive: 1
   isInvincible: 0
   invicibilityTime: 1
@@ -42936,6 +42936,10 @@ MonoBehaviour:
   attackZone: {fileID: 926064900}
   splashAttackPrefab: {fileID: 305965626348710138, guid: ad953da62f5798044a1c15c56208f148, type: 3}
   beamAttackPrefab: {fileID: 7925246787155057017, guid: d9eb5b02bf3c9a04f8553fb9268407b1, type: 3}
+  roroAura: {fileID: 507461000}
+  auraDamage: {fileID: 1735425953}
+  hasBeenStunned: 0
+  _isStunned: 0
   _hasTarget: 0
 --- !u!1001 &1236716982
 PrefabInstance:
@@ -55615,7 +55619,8 @@ GameObject:
   - component: {fileID: 1702428976}
   - component: {fileID: 1702428975}
   - component: {fileID: 1702428977}
-  m_Layer: 0
+  - component: {fileID: 1702428978}
+  m_Layer: 15
   m_Name: Roro_aura_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55710,6 +55715,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &1702428978
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702428974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.39934078, y: -1.1706245}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10, y: 10}
+    newSize: {x: 10, y: 10}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.1512973, y: 7.658751}
+  m_EdgeRadius: 0
 --- !u!1001 &1707921144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63676,7 +63726,7 @@ Transform:
   m_GameObject: {fileID: 1839076210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89, y: 2.24, z: -10}
+  m_LocalPosition: {x: 61.71, y: 18.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -80304,7 +80354,6 @@ SceneRoots:
   - {fileID: 890002549}
   - {fileID: 1211782170}
   - {fileID: 1173914119}
-  - {fileID: 1691633432}
   - {fileID: 1233969536}
   - {fileID: 1615364247}
   - {fileID: 1724972622}
@@ -80319,4 +80368,5 @@ SceneRoots:
   - {fileID: 1745631207}
   - {fileID: 1913591054}
   - {fileID: 1082714282}
+  - {fileID: 1691633432}
   - {fileID: 566842978}
