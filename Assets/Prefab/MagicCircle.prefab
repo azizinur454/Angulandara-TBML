@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
-  knockback: {x: 3, y: 2}
+  knockback: {x: -3, y: 2}
 --- !u!70 &6897574011271955212
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

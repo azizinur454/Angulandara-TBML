@@ -120,7 +120,7 @@ MonoBehaviour:
   updateOnStateMachineEnter: 0
   updateOnStateMachineExit: 0
   valueOnEnter: 0
-  valueOnExit: 2
+  valueOnExit: 1
 --- !u!1109 &-6118082290564814015
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -216,7 +216,7 @@ MonoBehaviour:
   updateOnStateMachineEnter: 0
   updateOnStateMachineExit: 0
   valueOnEnter: 0
-  valueOnExit: 5
+  valueOnExit: 3
 --- !u!1101 &-3465118383603205466
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

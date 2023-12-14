@@ -94,7 +94,7 @@ public class Damage : MonoBehaviour
 
     public bool isInvincible = false;
     private float timeSinceHit = 0;
-    [SerializeField] private float invicibilityTime = 0.25f;
+    public float invicibilityTime = 0.25f;
 
     public bool LockVelocity
     {

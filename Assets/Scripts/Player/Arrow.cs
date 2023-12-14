@@ -11,12 +11,14 @@ public class Arrow : MonoBehaviour
     Rigidbody2D rb;
     PlayerController player;
     Damage damage;
+    CameraSwitcher cameraSwitcher;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         player = FindObjectOfType<PlayerController>();
         damage = FindObjectOfType<Damage>();
+        cameraSwitcher = FindObjectOfType<CameraSwitcher>();
     }
 
     private void Start()
@@ -26,7 +28,14 @@ public class Arrow : MonoBehaviour
 
     private void Update()
     {
-        Destroy(gameObject, 1f);
+        if(cameraSwitcher.bossArea)
+        {
+            Destroy(gameObject, 2.3f);
+        }
+        else
+        {
+            Destroy(gameObject, 1f);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

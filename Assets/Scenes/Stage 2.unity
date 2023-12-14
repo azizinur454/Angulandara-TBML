@@ -17591,6 +17591,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896957924475154767, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4162078801997714557, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
       propertyPath: m_Name
       value: Banaspati (2)
@@ -20432,6 +20436,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3896957924475154767, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4162078801997714557, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
       propertyPath: m_Name
       value: Banaspati (4)
@@ -20594,6 +20602,7 @@ GameObject:
   - component: {fileID: 728621009}
   - component: {fileID: 728621008}
   - component: {fileID: 728621011}
+  - component: {fileID: 728621012}
   m_Layer: 0
   m_Name: CM Virtual Camera
   m_TagString: Untagged
@@ -20661,7 +20670,7 @@ Transform:
   m_GameObject: {fileID: 728621007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.28, y: -4.94, z: -10}
+  m_LocalPosition: {x: -29.28, y: -4.97, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20683,6 +20692,19 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 366401849}
   m_Damping: 0.5
   m_MaxWindowSize: -1
+--- !u!114 &728621012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728621007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0665e43f52e9394492a53b7849b388b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossArea: 0
 --- !u!1001 &729795800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20987,7 +21009,7 @@ Transform:
   m_GameObject: {fileID: 752669982}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.420149, y: 0.8154385, z: 2.7646294}
+  m_LocalPosition: {x: 14.420149, y: 0.8154385, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22313,7 +22335,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 170.2, y: -3.4799998, z: -0.7}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 3.3000002, y: 3.3000002, z: 3.3000002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 14958902}
@@ -23128,7 +23150,7 @@ Transform:
   m_GameObject: {fileID: 997543821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.533323, y: -4.9258, z: -10}
+  m_LocalPosition: {x: -25.532951, y: -4.95579, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24253,7 +24275,7 @@ PrefabInstance:
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[9].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3f06031e5ed2eab4b88c4a136f400788, type: 3}
+      objectReference: {fileID: 8300000, guid: 7b2dc95a15bb1ac4a951a06461ca3596, type: 3}
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[9].audioType
       value: 1
@@ -24321,7 +24343,7 @@ PrefabInstance:
     - target: {fileID: 422310562091938917, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: sounds.Array.data[22].audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8b540b3788bac704e8c8a393862b0b42, type: 3}
+      objectReference: {fileID: 8300000, guid: 8ec898bdbb7e8184ab4f8218640bd9e9, type: 3}
     - target: {fileID: 562857933416317166, guid: cbd4ec81a9e5bf1419d9f46636653695, type: 3}
       propertyPath: m_LocalPosition.x
       value: -54.909042
@@ -24902,6 +24924,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896957924475154767, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4162078801997714557, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
       propertyPath: m_Name
       value: Banaspati
@@ -25301,7 +25327,7 @@ PrefabInstance:
       objectReference: {fileID: 2017509407}
     - target: {fileID: 6136140440398823180, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: invicibilityTime
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25309,7 +25335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.94
+      value: -4.97
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25477,7 +25503,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 170.2, y: -3.48, z: -1.2}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 3.3000002, y: 3.3000002, z: 3.3000002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 14958902}
@@ -26160,6 +26186,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896957924475154767, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4162078801997714557, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
       propertyPath: m_Name
       value: Banaspati (3)
@@ -26210,7 +26240,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 170.2, y: -3.4799998, z: -0.4}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 3.3000002, y: 3.3000002, z: 3.3000002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 14958902}
@@ -27319,7 +27349,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 170.2, y: -3.4799998, z: -1}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 3.3000002, y: 3.3000002, z: 3.3000002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 14958902}
@@ -27441,6 +27471,10 @@ PrefabInstance:
     - target: {fileID: 3896957924475154767, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
       propertyPath: m_FlipX
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896957924475154767, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4162078801997714557, guid: f4596c26ba8f4564596049bdcaf6b93e, type: 3}
       propertyPath: m_Name
@@ -28533,7 +28567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.948058
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4868748615700809712, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28563,6 +28597,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6471884348593110960, guid: 94ff20432720e474882920cf7b4048b3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a01fac91bf1d81e43bf72038570cc471, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53981,11 +54019,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4778589802441728178, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 211.19
+      value: 194.03
       objectReference: {fileID: 0}
     - target: {fileID: 4778589802441728178, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.37
+      value: 5.51
       objectReference: {fileID: 0}
     - target: {fileID: 4778589802441728178, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: m_LocalPosition.z
@@ -54022,6 +54060,22 @@ PrefabInstance:
     - target: {fileID: 7816454451831981534, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: m_Name
       value: Pakande (Boss)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219225782777004276, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
+      propertyPath: m_Size.x
+      value: 3.8559468
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219225782777004276, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
+      propertyPath: m_Size.y
+      value: 8.1491785
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219225782777004276, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.8134206
+      objectReference: {fileID: 0}
+    - target: {fileID: 8219225782777004276, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.5896807
       objectReference: {fileID: 0}
     - target: {fileID: 8617349114851069213, guid: c67364df8016f1b48b43a547e8f0af12, type: 3}
       propertyPath: player

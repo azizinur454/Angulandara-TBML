@@ -11,7 +11,7 @@ public class Roro : MonoBehaviour
     [Header("Target Location")]
     public Transform player;
     public Transform beamAttackLoc;
-    public Transform splashAttackLoc;
+    public Transform[] splashAttackLoc;
 
     [Header("Enemy Settings")]
     public Transform[] enemyPos;
@@ -182,8 +182,41 @@ public class Roro : MonoBehaviour
 
     public void SpawnRoroSplashAttack()
     {
-        GameObject splashAttack = Instantiate(splashAttackPrefab, splashAttackLoc.transform.position,Quaternion.identity);
+        int idRoroAttackLoc = Random.Range(1, 4);
 
-        Destroy(splashAttack, 1f);
+        if(idRoroAttackLoc == 1)
+        {
+            GameObject splashAttack = Instantiate(splashAttackPrefab, splashAttackLoc[0].transform.position, Quaternion.identity);
+
+            Destroy(splashAttack, 1f);
+
+            idRoroAttackLoc++;
+        }
+
+        else if (idRoroAttackLoc == 2)
+        {
+            GameObject splashAttack = Instantiate(splashAttackPrefab, splashAttackLoc[1].transform.position, Quaternion.identity);
+
+            Destroy(splashAttack, 1f);
+
+            idRoroAttackLoc++;
+        }
+        else if(idRoroAttackLoc == 3)
+        {
+            GameObject splashAttack = Instantiate(splashAttackPrefab, splashAttackLoc[2].transform.position, Quaternion.identity);
+
+            Destroy(splashAttack, 1f);
+
+            idRoroAttackLoc = 1;
+        }
+    }
+
+    public void SpearHitSandSound()
+    {
+        SoundManager.Instance.Play("SpearHitSand");
+    }
+    public void SpearSwingSound()
+    {
+        SoundManager.Instance.Play("SpearSwing");
     }
 }
