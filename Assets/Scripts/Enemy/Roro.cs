@@ -139,6 +139,17 @@ public class Roro : MonoBehaviour
 
         EnemyStunned();
         RemoveBarrier();
+        RevertStunState();
+    }
+
+    public void RevertStunState()
+    {
+        if(damage.Health == damage.MaxHealth)
+        {
+            hasBeenStunned = false;
+            IsStunned = false;
+            StunDuration = 0;
+        }
     }
 
     public void EnemyStunned()

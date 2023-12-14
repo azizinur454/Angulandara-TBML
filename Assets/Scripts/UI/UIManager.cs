@@ -170,6 +170,9 @@ public class UIManager : MonoBehaviour
         loseMenu.SetActive(false);
         Time.timeScale = 1f;
 
+        SoundManager.Instance.Stop("Lose");
+        SoundManager.Instance.Play("Stage1");
+
         playerRespawn.ReloadCheckpoint();
     }
 
@@ -197,6 +200,9 @@ public class UIManager : MonoBehaviour
     {
         isLose = true;
         loseMenuWithCheckpoint.SetActive(true);
+        SoundManager.Instance.Play("Lose");
+        SoundManager.Instance.Stop("Stage1");
+        SoundManager.Instance.Stop("BossBGM");
     }
 
     public void ExitGame()

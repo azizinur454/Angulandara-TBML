@@ -148,6 +148,11 @@ public class Pakande : MonoBehaviour
 
     public void OnHealthConditionChanged()
     {
+        if (damage.Health >= 101 && damage.Health <= 150)
+        {
+            MoveToPosition(enemyPos[4]);
+        }
+
         if (damage.Health >= 76 && damage.Health <= 100)
         {
             MoveToPosition(enemyPos[0]);
