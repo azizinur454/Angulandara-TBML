@@ -3883,7 +3883,7 @@ Transform:
   m_GameObject: {fileID: 339962825}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91, y: 3.1, z: -10}
+  m_LocalPosition: {x: 92.2, y: 2.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29104,7 +29104,7 @@ PrefabInstance:
       objectReference: {fileID: 1745631208}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.size
-      value: 3
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: actors.Array.data[1].sprite
@@ -29116,15 +29116,23 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
-      value: 3
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[0].actorId
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].message
-      value: test1
+      value: You did it Pandu!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[1].actorId
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[1].message
-      value: test2
+      value: It was, but I managed to navigate through.
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[2].actorId
@@ -29132,15 +29140,114 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[2].message
-      value: test3
+      value: Well done, Pandu. But be prepared; the next challenge is even greater.
+        You'll face Nyi Roro Kidul, the legendary sea queen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[3].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[3].message
+      value: Nyi Roro Kidul? What should I expect?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[4].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[4].message
+      value: Nyi Roro Kidul is no ordinary adversary. She hails from the South Coast
+        of Java, Central Java, and West Java. She's a sea queen known for her sea
+        green clothes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[5].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[5].message
+      value: Nyi Roro Kidul has the power to control ocean waves, summon huge waves,
+        and command sea creatures. Some even believe she's the guardian of the natural
+        beauty of the sea.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[6].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[6].message
+      value: That sounds powerful. How do we defeat her?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[7].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[7].message
+      value: Nyi Roro Kidul will cover herself with a Whirlpool, making it challenging
+        for bows and swords to pierce through. She'll attack with her spear and water.
+        You need to stay agile and find the right moment to strike.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[8].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[8].message
+      value: Got it. I'll be careful.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[9].message
+      value: One more thing, Pandu. Before you face Nyi Roro Kidul, did you manage
+        to find the artifact fragments?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[10].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[10].message
+      value: Yes, Kakek, I found all the artifact fragments.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[11].message
+      value: Excellent! With the power of the complete spear artifact, It will enhance
+        your health, damage, and your movement speed will increase significantly.
+        Use it to your advantage against Nyi Roro Kidul's attacks.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[12].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[12].message
+      value: Pandu, you're well-equipped now. Face Nyi Roro Kidul with confidence,
+        and may the sea's guardian be on your side.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[13].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[13].message
+      value: I will. Thanks, Kakek.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[0].actorId
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: test1
+      value: You did it Pandu!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].actorId
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[1].message
-      value: test2
+      value: It was, but I managed to navigate through.
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[2].actorId
@@ -29148,7 +29255,117 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[2].message
-      value: test3
+      value: Well done, Pandu. But be prepared; the next challenge is even greater.
+        You'll face Nyi Roro Kidul, the legendary sea queen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].message
+      value: Nyi Roro Kidul? What should I expect?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].message
+      value: Nyi Roro Kidul is no ordinary adversary. She hails from the South Coast
+        of Java, Central Java, and West Java. She's a sea queen known for her sea
+        green clothes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[5].message
+      value: Nyi Roro Kidul has the power to control ocean waves, summon huge waves,
+        and command sea creatures. Some even believe she's the guardian of the natural
+        beauty of the sea.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[6].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[6].message
+      value: That sounds powerful. How do we defeat her?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[7].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[7].message
+      value: Nyi Roro Kidul will cover herself with a Whirlpool, making it challenging
+        for bows and swords to pierce through. She'll attack with her spear and water.
+        You need to stay agile and find the right moment to strike.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[8].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[8].message
+      value: Got it. I'll be careful.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[9].message
+      value: One more thing, Pandu. Before you face Nyi Roro Kidul, did you manage
+        to find the artifact fragments?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[10].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[10].message
+      value: "I don\u2019t think I find all the artifact fragments."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[11].message
+      value: It's alright, Pandu. Not every challenge leads to success.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[12].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[12].message
+      value: Don't be too hard on yourself, Pandu.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[13].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[13].message
+      value: I know, but I feel like I let you both down.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[14].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[14].message
+      value: Failure is not the end, Pandu. It's an opportunity to learn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[15].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[15].message
+      value: You're right. I won't let this setback define me. I'll face Nyi Roro
+        Kidul with whatever power I have.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[16].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[16].message
+      value: That's the spirit, Pandu. Remember, every challenge is an opportunity
+        to grow. Face it with courage, and may the sea be on your side.
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31885,7 +32102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -163.07
+      value: -161.29
       objectReference: {fileID: 0}
     - target: {fileID: 7482854233021212259, guid: 376c5338ecf844a40aa32ff5ff950181, type: 3}
       propertyPath: m_LocalPosition.y
@@ -64318,7 +64535,7 @@ Transform:
   m_GameObject: {fileID: 1839076210}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.487076, y: -16.117048, z: 0.062568665}
+  m_LocalPosition: {x: 29.687073, y: -16.317049, z: 0.062568665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

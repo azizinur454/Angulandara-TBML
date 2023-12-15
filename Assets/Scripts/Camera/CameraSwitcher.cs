@@ -15,18 +15,18 @@ public class CameraSwitcher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        bossArea = true;
         if (collision.CompareTag("Player"))
         {
+            bossArea = true;
             animator.Play("Camera_2");
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        bossArea = false;
         if (collision.CompareTag("Player"))
         {
+            bossArea = false;
             animator.Play("Camera_1");
         }
     }

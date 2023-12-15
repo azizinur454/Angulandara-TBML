@@ -17939,7 +17939,7 @@ PrefabInstance:
       objectReference: {fileID: 1553880213}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.size
-      value: 1
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: actors.Array.data[1].sprite
@@ -17951,15 +17951,295 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[0].actorId
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].message
-      value: Test1
+      value: Pandu, you did it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[1].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[1].message
+      value: Yeah, it was tough, but I made it through
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[2].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[2].message
+      value: Good job, Pandu. You've proven yourself as a skilled scout. Now, listen
+        carefully. You're about to face Pakande, a formidable figure from South Sulawesi.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[3].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[3].message
+      value: Pakande? What should I expect?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[4].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[4].message
+      value: Pakande is an old grandmother, but don't be fooled by her appearance.
+        She can be soft-spoken, but she's known to prey on children. Her attacks
+        are unpredictable; she'll emerge from the ground randomly and launch thunder
+        attacks once in a while.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[5].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[5].message
+      value: Thunder attacks? That sounds intense. How do I defend against that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[6].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[6].message
+      value: The key is to stay agile. Watch the ground closely, and when you see
+        movement, be ready to dodge. As for the thunder attacks, keep moving and
+        find cover.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[7].message
+      value: " I see\u2026 I will do my best."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[8].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[8].message
+      value: Now what about the artifact fragments? Did you find them, Pandu?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[9].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[9].message
+      value: ' I found a few of them, but I''m not sure if it''s enough.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[10].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[10].message
+      value: Let me see them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[11].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[11].message
+      value: Hmmm... You've done well, Pandu. You found all the fragments. This is
+        good.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[12].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[12].message
+      value: Really? What does that mean?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[13].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[13].message
+      value: If you gather all the artifact fragments, your movement speed will increase.
+        It's a valuable advantage against Pakande. But remember, if you only find
+        a few shards, you won't gain anything.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[14].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[14].message
+      value: So, Pandu, with the artifact's power, you'll have a better chance against
+        Pakande. Use it wisely.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[15].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[15].message
+      value: I will, Kirana. And thank you, Kakek, for the advice. I won't let you
+        down.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[16].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[16].message
+      value: Good. Now, go and face the next challenge with courage. Pakande awaits,
+        and the fate of the scouts is in your hands.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[0].actorId
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: Test2
+      value: Pandu, you did it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].message
+      value: Yeah, it was tough, but I made it through
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].message
+      value: Good job, Pandu. You've proven yourself as a skilled scout. Now, listen
+        carefully. You're about to face Pakande, a formidable figure from South Sulawesi.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].message
+      value: Pakande? What should I expect?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].message
+      value: Pakande? What should I expect?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[5].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[5].message
+      value: Thunder attacks? That sounds intense. How do I defend against that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[6].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[6].message
+      value: The key is to stay agile. Watch the ground closely, and when you see
+        movement, be ready to dodge. As for the thunder attacks, keep moving and
+        find cover.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[7].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[7].message
+      value: " I see\u2026 I will do my best."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[8].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[8].message
+      value: Now what about the artifact fragments? Did you find them, Pandu?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[9].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[9].message
+      value: I found a few, but I'm not sure if it's enough.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[10].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[10].message
+      value: Let me see them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[11].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[11].message
+      value: "Hmmm...\_ you still need more of them, unfortunately, with only a few
+        fragments, you won't gain the artifact's power. But It's alright, Pandu.
+        Sometimes, the challenge is in accepting what we couldn't achieve."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[12].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[12].message
+      value: So, I won't have any advantage against Pakande?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[13].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[13].message
+      value: It's okay, Pandu. You'll just have to rely on your skills and courage.
+        Kakek, do you have any advice for Pandu in this situation?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[14].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[14].message
+      value: Indeed, I do. Without the artifact's power, you must be even more cautious.
+        Watch Pakande closely, and remember to watch your surroundings.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[15].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[15].message
+      value: ' I appreciate the advice, Kakek. I won''t let this setback hold me
+        back. I''ll face Pakande with everything I have.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[16].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[16].message
+      value: That's the spirit, Pandu! We believe in you.
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x

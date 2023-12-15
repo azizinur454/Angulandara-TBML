@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     public bool isArtifactPrabuComplete = false;
     public bool isArtifactPakandeComplete = false;
     public bool isArtifactRoroComplete = false;
+    public bool isAllArtifactCollected = false;
 
     Vector2 moveInput;
 
@@ -191,6 +192,7 @@ public class PlayerController : MonoBehaviour
         }
 
         OnIncreaseSpeed();
+        AllArtifactCollected();
     }
 
     private void SetFacingDirection(Vector2 moveInput)
@@ -302,6 +304,18 @@ public class PlayerController : MonoBehaviour
         {
             walkSpeed = 7f;
             runSpeed = 9f;
+        }
+    }
+
+    public void AllArtifactCollected()
+    {
+        if (isArtifactPrabuComplete || isArtifactPakandeComplete || isArtifactRoroComplete)
+        {
+            isAllArtifactCollected = true;
+        }
+        else
+        {
+            isAllArtifactCollected = false;
         }
     }
 
