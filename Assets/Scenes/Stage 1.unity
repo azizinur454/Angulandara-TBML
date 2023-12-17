@@ -951,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -962,6 +962,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 885314345}
@@ -970,11 +974,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1534639079}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 841328152}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
@@ -986,12 +998,20 @@ PrefabInstance:
       value: ClickButtonSound
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
@@ -1002,11 +1022,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1071540060976471742, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1092753969471355951, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
@@ -1135,7 +1163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1146,6 +1174,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 885314345}
@@ -1154,11 +1186,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1534639079}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 841328152}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
@@ -1170,12 +1210,20 @@ PrefabInstance:
       value: ClickButtonSound
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
@@ -1186,11 +1234,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580756575309253546, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3687728327063234796, guid: 8445279edd5bec546ba1a54437ed2129, type: 3}
@@ -9277,6 +9333,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2777089422151234708, guid: 3d29ab9a328e34f4aae16dd95322067c, type: 3}
   m_PrefabInstance: {fileID: 809690990}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &841328152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4617313685737283794, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+  m_PrefabInstance: {fileID: 885314341}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &847582814
 GameObject:
   m_ObjectHideFlags: 0
@@ -9384,6 +9445,58 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 704845226}
     m_Modifications:
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1534639079}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 841328152}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClickButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 767058417807669097, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 775429222870273850, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9403,6 +9516,18 @@ PrefabInstance:
     - target: {fileID: 1118041760132723126, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1280152436843599583, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1280152436843599583, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1280152436843599583, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1955648726573990251, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9508,6 +9633,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 3127073459153067656, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1534639079}
+    - target: {fileID: 3127073459153067656, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClickButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 3127073459153067656, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3199461525916050050, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9536,6 +9673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Option Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 4044561606117938248, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4616103741874469424, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9556,6 +9697,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: TurnOn
       objectReference: {fileID: 0}
+    - target: {fileID: 5092058358321376265, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092058358321376265, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724688846239797748, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724688846239797748, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5724688846239797748, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956398857936781914, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1534639079}
+    - target: {fileID: 5956398857936781914, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClickButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956398857936781914, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 6427976407109811686, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -9579,6 +9752,74 @@ PrefabInstance:
     - target: {fileID: 7531149115763819675, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1534639079}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 841328152}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ClickButtonSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7597267753564986059, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874467706501838930, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8874467706501838930, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168329634124865413, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9168329634124865413, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -9633,7 +9874,8 @@ PrefabInstance:
       value: TurnOff
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3782427301765369888, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58c34c3a68106d740a169a6dcf097a48, type: 3}
@@ -45421,6 +45663,182 @@ PrefabInstance:
       propertyPath: actors.Array.data[2].sprite
       value: 
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[0].message
+      value: Kirana, Kakek, I'm back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[1].message
+      value: Pandu, we were worried about you. How was your journey?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[2].message
+      value: It wasn't easy, Kirana. I encountered some creatures I never imagined
+        before.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[3].message
+      value: Pandu, this journey is not over. Now, we have a more challenging task
+        ahead of us.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[4].message
+      value: What do we face next, Kakek?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[5].message
+      value: The two of you will face 'Prabu Dewata Cengkar.' He is a legendary creature
+        from Central Java.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[6].message
+      value: In the Aji Saka legend, he was the king of Medang Kamulan. It is said
+        that Prabu Dewata Cengkar is also a dangerous demon creature.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[7].message
+      value: Tell me more, Kakek.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[8].message
+      value: Prabu Dewata Cengkar is known for his cruel nature, oppression, and
+        a penchant for devouring humans. He is a tyrant giant king, instilling fear
+        among his people.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[9].message
+      value: Furthermore, he often employs cunning and evil tactics to achieve his
+        goals.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[10].message
+      value: This will be a tough battle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[11].message
+      value: Indeed. However, I have tips for defeating Prabu Dewata Cengkar. First,
+        you need to use the heirlooms and artifacts I provided. They possess special
+        powers that can help combat his dark forces.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[12].message
+      value: Did you manage to collect all the artifacts, Pandu?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[13].message
+      value: Yes, Kakek, I found all the artifact fragments.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[14].message
+      value: Good, Pandu. This crown will enhance the power of your arrows and dagger.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[15].message
+      value: But you must remain vigilant. Prabu Dewata Cengkar is formidable, but
+        he still has weaknesses.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[16].message
+      value: Alright, Kakek. I will defeat Prabu Dewata Cengkar to save this land.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: messages.Array.data[17].message
+      value: Good. Best of luck, Pandu.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[0].message
+      value: Kirana, Kakek, I'm back.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].message
+      value: Pandu, we were worried about you. How was your journey?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].message
+      value: It wasn't easy, Kirana. I encountered some creatures I never imagined
+        before.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].message
+      value: Pandu, this journey is not over. Now, we have a more challenging task
+        ahead of us.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].message
+      value: What do we face next, Kakek?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[5].message
+      value: The two of you will face 'Prabu Dewata Cengkar.' He is a legendary creature
+        from Central Java.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[6].message
+      value: In the Aji Saka legend, he was the king of Medang Kamulan. It is said
+        that Prabu Dewata Cengkar is also a dangerous demon creature.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[7].message
+      value: Tell me more, Kakek.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[8].message
+      value: Prabu Dewata Cengkar is known for his cruel nature, oppression, and
+        a penchant for devouring humans. He is a tyrant giant king, instilling fear
+        among his people.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[9].message
+      value: Furthermore, he often employs cunning and evil tactics to achieve his
+        goals.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[10].message
+      value: This will be a tough battle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[11].message
+      value: ' Indeed. However, I have tips for defeating Prabu Dewata Cengkar. First,
+        you need to use the heirlooms and artifacts I provided. They possess special
+        powers that can help combat his dark forces.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[12].message
+      value: Did you manage to collect all the artifacts, Pandu?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[13].message
+      value: I'm sorry, Kakek. I didn't manage to find all the missing artifact fragments.
+        Some of them seemed inaccessible or just couldn't be seen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[14].message
+      value: It's okay, brother. What matters is that you're safe.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[15].message
+      value: Failure is part of the beginning of any struggle. What's important now
+        is how we move forward from here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[16].message
+      value: Alright, Kakek, but I feel like I missed a chance to better prepare
+        for the next battle.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[17].message
+      value: Those artifact fragments indeed provide additional strength, but your
+        true courage and determination are the keys to facing this challenge.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[18].message
+      value: Okay, thank you, Kakek. I will defeat Prabu Dewata Cengkar to save this
+        land.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[19].message
+      value: Good. Best of luck, Pandu.
+      objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
       value: 95.51073
