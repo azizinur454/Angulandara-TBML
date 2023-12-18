@@ -827,81 +827,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 3
-    message: Di suatu hari yang cerah, muncul dua anak muda bernama Pandu dan Kirana
-      yang sedang bermain di tengah padang rumput yang luas. Mereka adalah kakak
-      beradik memiliki sifat semangat yang tinggi dan senang berpetualang.
+    message: On a bright day, two young siblings named Pandu and Kirana were playing
+      in the middle of a vast grassy field.
   - actorId: 3
-    message: Tidak lama setelah mereka bermain gobak sodor, mereka melihat sebuah
-      pohon raksasa yang menjulang tinggi dari kejauhan dan terlihat begitu misterius.
+    message: Not long after they played Gobak Sodor, they saw a giant tree from a
+      distance and looked very mysterious.
   - actorId: 0
-    message: Ayo kita pergi ke sana, Kirana! Pohon itu pasti punya cerita menarik
-      di dalamnya.
+    message: Let's go there, Kirana! That tree definitely has an interesting story
+      in it.
   - actorId: 1
-    message: Pandu, mungkin lebih baik kita tidak pergi kesana. Tempat itu sangat
-      berbahaya.
+    message: Pandu, maybe it's better if we don't go there. That place is very dangerous.
   - actorId: 3
-    message: Tetapi, Pandu tetap tidak mendengarkan peringatan adiknya. Tanpa ragu,
-      Pandu berjalan menuju pohon raksasa tersebut dan Kirana mengikutinya dengan
-      hati-hati dari belakang.
+    message: However, Pandu still did not listen to his younger brother's warning.
+      Without hesitation, Pandu walked towards the giant tree and Kirana followed
+      him carefully from behind.
   - actorId: 3
-    message: Mereka melihat sebuah lubang yang cukup besar dan mencurigakan di antara
-      akar-akar pohon tersebut.
+    message: They saw a hole that was quite large and suspicious between the roots
+      of the tree.
   - actorId: 3
-    message: Pandu yang merasa penasaran dengan lubang misterius tersebut memutuskan
-      untuk memasuki lubang tersebut dan dengan cepat menghilang dalam kegelapan.
+    message: Pandu, who was curious about this mysterious hole, decided to enter
+      the hole and quickly disappeared into the darkness.
   - actorId: 3
-    message: Tempat tersebut begitu gelap dan mereka terjebak di dalam lubang pohon
-      tersebut. Kirana segera menyalakan korek api yang dia bawa dan ikut masuk ke
-      dalam lubang tersebut dengan hati-hati.
+    message: The place was very dark and they were trapped in the tree hole. Kirana
+      immediately lit the match she was carrying and entered the hole carefully.
   - actorId: 3
-    message: Saat mereka mencapai bagian dalam, Pandu tersandung oleh akar-akar pohon.
-      Kirana dengan cepat menghampiri Pandu dan membantunya berdiri.
+    message: When they reached the inside, Pandu tripped over the roots of a tree.
+      Kirana quickly approached Pandu and helped him stand up.
   - actorId: 3
-    message: 'Mereka melihat sesuatu yang mengejutkan dimana mereka melihat sebuah
-      buku besar yang tersegel oleh akar-akar pohon. '
+    message: They saw something surprising where they saw a large book sealed by
+      tree roots.
   - actorId: 3
-    message: Tanpa ragu, Pandu mencoba melepaskan buku itu dari akar-akar yang ada
-      disekelilingnya.
+    message: Without hesitation, Pandu tried to remove the book from the roots around
+      it.
   - actorId: 3
-    message: Akar-akar tersebut akhirnya terlepas, membuat buku itu terangkat dengan
-      sendirinya dan mengeluarkan cahaya secara tiba-tiba.
+    message: The roots finally came loose, causing the book to lift itself and emit
+      light suddenly.
   - actorId: 3
-    message: Cahaya itu begitu terang sehingga membuat Pandu dan Kirana merasa terbangun
-      di dalam dunia yang berbeda. Namun pada akhirnya, mereka berdua pingsan di
-      tempat tersebut.
+    message: The light was so bright that it made Pandu and Kirana feel like they
+      had woken up in a different world. But in the end, they both fainted at that
+      place.
   - actorId: 3
-    message: Pandu dan Kirana terbangun dengan perasaan pusing. Mereka saling menatap
-      satu sama lain dengan penuh kebingungan.
+    message: Pandu and Kirana woke up feeling dizzy. They looked at each other in
+      confusion.
   - actorId: 3
-    message: Tidak lama kemudian, mereka melihat seorang kakek yang berdiri di depan
-      mereka dengan tatapan tajam dengan raut wajah yang penuh kekhawatiran.
+    message: Not long after, they saw an old man standing in front of them with a
+      sharp gaze and a face full of worry.
   - actorId: 2
-    message: Kalian telah melakukan kesalahan besar karena telah membuka buku ini.
+    message: You have made a big mistake by opening this book.
   - actorId: 0
-    message: Maaf Kakek, kami tidak tahu bahwa buku ini begitu penting. Sebenernya
-      buku apakah ini?
+    message: Sorry Grandpa, we didn't know this book was so important. What is this
+      book actually?
   - actorId: 2
-    message: Buku ini adalah buku sakral yang seharusnya tidak boleh dibuka kembali.
+    message: This book is a sacred book that should not be reopened.
   - actorId: 2
-    message: Kalian telah melepaskan beberapa makhluk mitos yang seharusnya tersegel
-      selamanya di dalam buku itu.
+    message: You have released several mythical creatures that should have been sealed
+      forever within that book.
   - actorId: 2
-    message: Karena kalian telah membuka buku ini, kalian harus menyegel kembali
-      makhluk-makhluk tersebut. Namun sebelum kalian pergi, saya akan memberikan
-      senjata kepada kalian berdua.
+    message: Since you have opened this book, you must reseal these creatures. But
+      before you leave, I will give weapons to both of you.
   - actorId: 0
-    message: Mengapa kakek mempercayakan hal tersebut kepada kami?
+    message: Why did grandfather entrust this to us?
   - actorId: 2
-    message: Kakek melihat bahwa kalian mempunyai darah keturunan dari legenda Timun
-      Mas dan itulah mengapa kakek mempercayakan kalian untuk menjalankan tugas ini.
-      Kalian memiliki kekuatan yang tidak dimiliki banyak orang.
+    message: Grandfather saw that you have the blood of the legendary Timun Mas and
+      that is why grandfather entrusted you to carry out this task. You have a strength
+      that not many people have.
   - actorId: 0
-    message: Baik kakek, kami akan menyegel kembali makhluk-makhluk tersebut untuk
-      menebus kesalahan kami.
+    message: Alright grandfather, we will reseal these creatures to atone for our
+      mistakes.
   - actorId: 3
-    message: Mereka menerima tugas tersebut dan mengambil sebuah kotak kecil dari
-      kakek yang berisi pusaka untuk melawan makhluk-makhluk tersebut. Disaat inilah
-      petualangan besar mereka akan dimulai.
+    message: They accepted the task and took a small box from grandfather which contained
+      an heirloom to fight these creatures. This is when their big adventure will
+      begin.
   actors:
   - name: Pandu
   - name: Kirana

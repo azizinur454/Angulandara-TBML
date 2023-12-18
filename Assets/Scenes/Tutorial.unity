@@ -1196,7 +1196,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].actorId
@@ -1216,11 +1216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].actorId
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: test1
+      value: 'You almost reach the end. '
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[1].actorId
@@ -1228,7 +1228,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[1].message
-      value: test2
+      value: Now throughout your journey, you'll encounter checkpoints. Reach them
+        to secure your progress.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].message
+      value: 'That concludes our tutorial, Pandu. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].message
+      value: Are you ready to dive into the realm and face the challenges that await?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[4].message
+      value: Absolutely! Let the adventure begin!
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1270,6 +1291,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Size.y
+      value: 8.084962
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.1804056
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1305,7 +1334,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].actorId
@@ -1321,7 +1350,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: test1
+      value: "Pandu, you are finally here. Now I\u2019ll guide you ."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].message
+      value: Absolutely! I'm eager to learn the ropes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].message
+      value: Press the [Space bar] to jump, Pandu. It'll help you overcome obstacles
+        and reach higher places.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].message
+      value: 'Got it! '
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1362,6 +1416,14 @@ PrefabInstance:
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Size.y
+      value: 7.306563
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.7912066
       objectReference: {fileID: 0}
     - target: {fileID: 8238125638375198465, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_SortingOrder
@@ -2049,7 +2111,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].actorId
@@ -2065,7 +2127,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: test1
+      value: 'Good Pandu. Now watch out for dangers like Banaspati, cliffs and rivers. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].message
+      value: Also, be mindful of spider webs. they'll slow you down.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].message
+      value: You can destroy spider webs with your sword. Keep your eyes peeled for
+        those tricky obstacles!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].actorId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[3].message
+      value: Got it!
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2106,6 +2189,14 @@ PrefabInstance:
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Size.y
+      value: 6.6449237
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.460387
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2933,7 +3024,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].actorId
@@ -2949,7 +3040,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: test1
+      value: Next is teleportation. Press [S] to use your teleportation ability.
+        Find the tree trunks for quick movement.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].actorId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].message
+      value: But be cautious, not every tree trunk can teleport you. Choose wisely.
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2990,6 +3090,14 @@ PrefabInstance:
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Size.y
+      value: 8.357401
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.316626
       objectReference: {fileID: 0}
     - target: {fileID: 8238125638375198465, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_SortingOrder
@@ -22871,7 +22979,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ae1e8bce79f54ee409633e2694a9e959, type: 3}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: messages.Array.data[0].actorId
@@ -22887,7 +22995,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: alternativeMessage.Array.data[0].message
-      value: test1
+      value: Excellent! Now, observe these glowing orbs. Collect them to boost your
+        score and power. Use [J] to attack with your sword and [K] to shoot arrows
+        from your bow.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[1].message
+      value: Now show us your might, Pandu!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].actorId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635821019868636140, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: alternativeMessage.Array.data[2].message
+      value: Now show us your might, Pandu!
       objectReference: {fileID: 0}
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22928,6 +23050,14 @@ PrefabInstance:
     - target: {fileID: 4609433222758959775, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Size.y
+      value: 6.644924
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443333672007664666, guid: 6bd4dba40cf2d4a47a8ad84f1fc6d053, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.4603872
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
